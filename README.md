@@ -21,7 +21,7 @@ import pandas as pd
 URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
 Col_Names  = ['age','workclass','fnlwgt','education','education-num','marital-status','occupation','relationship','race','sex','capital-loss','hours-per-week','native-country','Income']
 
-Data = pd.read_csv(URL)
+Data = pd.read_csv(URL,header=None)
 Data.columns = Names
 Data
 ```
