@@ -1,0 +1,1509 @@
+Title,Keywords,Topics,High-Level Keyword(s),Abstract
+The cascade auction – a mechanism for deterring collusion in auctions,"Mediators
+Auctions
+Collusion
+Ad Exchanges","Auctions and Market-Based Systems
+E-Commerce
+Game Theory
+Mechanism Design",Multiagent Systems,"We introduce a sealed bid auction of a single item in which
+the winner is chosen at random among the highest k bidders
+according to a fixed probability distribution, and the price for
+the chosen winner is the Vickrey-Clarke-Groves price. We
+call such an auction a cascade auction. Our analysis suggests
+that this type of auction may give higher revenues compared
+to second price auction in cases of collusion."
+Basis Adaptation for Sparse Nonlinear Reinforcement Learning,"Reinforcement learning
+Sparsity
+Mirror descent
+Online learning
+Markov decision processes","Dimension Reduction/Feature Selection
+Online Learning
+Reinforcement Learning
+Sequential Decision Making","Machine Learning
+Reasoning under Uncertainty","This paper presents a new approach to basis adaptation in reinforcement learning (RL) using the recently proposed {\em mirror-descent} framework.  Mirror descent can be viewed as an enhanced gradient method, particularly suited to minimization of convex functions in high-dimensional spaces. Unlike traditional gradient methods, mirror descent undertakes gradient updates of weights in both the dual space and primal space, which are linked together using a Legendre transform. Mirror descent can be viewed as a proximal algorithm where the distance generating function used is a Bregman divergence.  We introduce a general framework for nonlinear separable value function approximation based on finding Frechet gradients of an error function based on variable projection functionals. We then show how to combine basis adaptation methods with  proximal-gradient based temporal-difference (TD) methods and present a new class of regularized TD methods, which combine feature selection through sparse $L_1$ regularization and basis adaptation. Experimental results are provided to illustrate and validate the approach."
+Optimal Coalition Structures in Cooperative Graph Games,"Cooperative Game Theory
+Coalition Structure Generation
+Optimal Coalition Structure
+Deng and Papadimitriou's Cooperative Graph Game
+Planar Graphs
+Minor Free Graphs","Coordination and Collaboration
+Game Theory",Multiagent Systems,"Representation  languages for coalitional games are a key research area in algorithmic game theory. There is an inherent tradeoff between how general a language is, allowing it to capture more elaborate games, and how hard it is computationally to optimize and solve such games. One prominent such language is the simple yet expressive Weighted Graph Games (WGGs) representation (Deng and Papadimitriou, 1994), which maintains knowledge about synergies between agents in the form of an edge weighted graph.
+
+We consider the problem of finding the optimal coalition structure in WGGs. The agents in such games are vertices in a graph, and the value of a coalition is the sum of the weights of the edges present between coalition members. The optimal coalition structure is a partition of the agents to coalitions, that maximizes the sum of utilities obtained by the coalitions. We show that finding the optimal coalition structure is not only hard for general graphs, but is also intractable for restricted families such as planar graphs which are amenable for many other combinatorial problems. We then provide algorithms with constant factor approximations for planar, minor-free and bounded degree graphs."
+External Memory Best-First Search for Multiple Sequence Alignment,"External-Memory Search
+Parallel Search
+Multiple Sequence Alignment
+Dynamic Programming","Heuristic Search
+Evaluation and Analysis (Search and Optimization)
+Search (General/Other)",Heuristic Search and Optimization,"Multiple sequence alignment (MSA) is a central problem in computational biology.  It is well known that MSA can be formulated as a shortest path problem and solved using heuristic search, but the memory requirement of A* makes it impractical for all but the smallest problems.  Partial Expansion A* (PEA*) reduces the space complexity of A* by generating only the most promising successor nodes.  However, even PEA* exhausts available memory on many problems.  Another alternative is Iterative Deepening Dynamic Programming, which uses an uninformed search order but stores only the nodes along the search frontier.  However, it too cannot scale to the largest problems.  In this paper, we propose storing nodes on cheap and plentiful secondary storage.  We present a new general-purpose algorithm, Parallel External PEA* (PE2A*), that combines PEA* with Delayed Duplicate Detection to take advantage of external memory and multiple processors to solve large MSA problems.  In our experiments, PE2A* is the first algorithm capable of solving the entire Reference Set 1 of the standard BaliBASE benchmark using a biologically accurate cost function.  This work suggests that external best-first search can effectively use heuristic information to surpass methods that rely on predefined search orders."
+Posted Prices Exchange for Display Advertising Contracts,"Display Advertising
+Dynamic Pricing
+Market Equilibrium","Auctions and Market-Based Systems
+E-Commerce
+Mechanism Design",Multiagent Systems,"We propose a new market design for display advertising contracts, based on posted prices. This requires overcoming major challenges: (i) the space of possible impression types is exponential in the number of attributes, which is typically large; therefore a complete price space cannot be maintained; (ii) the level of detail with which supply and demand are specified are often not identical, (iii) advertisers are usually unable to provide extensive demand (willingness-to-pay) functions."
+Gradient Networks for Shape-Based Object Instance Detection,"object detection
+instance detection
+shape
+gradient networks","Vision, Object Recognition, and Perception",Robotics,"We present a novel framework for shape-based template matching in images.  While previous approaches required brittle contour extraction, considered only local information, or used coarse statistics, we propose to match the shape explicitly on low-level gradients by formulating the problem as traversing paths in a gradient network.  We evaluate our algorithm on a challenging dataset of objects in cluttered environments and demonstrate significant improvement over state-of-the-art methods for shape matching and object detection."
+Unified Constraint Propagation on Multi-View Data,"pairwise constraint propagation
+semi-supervised learning
+multi-view data","Relational/Graph-Based Learning
+Semisupervised Learning",Machine Learning,"This paper presents a unified framework for intra-view and inter-view constraint propagation on multi-view data from a semi-supervised learning viewpoint. In the literature, pairwise constraint propagation has been studied extensively, where each pairwise constraint is defined over a pair of data points from a single view. In contrast, very little attention has been paid to inter-view constraint propagation, which is more challenging since each pairwise constraint is now defined over a pair of data points from different views. Although both intra-view and inter-view constraint propagation are crucial for multi-view tasks, most previous methods cannot handle them simultaneously. To address this challenging issue, we propose to decompose these two types of constraint propagation into semi-supervised learning subproblems so that they can be uniformly solved based on the traditional label propagation techniques. To further integrate them into a unified framework, we utilize the results of intra-view constraint propagation to adjust the similarity matrix of each view and then perform inter-view constraint propagation with the adjusted similarity matrices. The experimental results in cross-view retrieval have demonstrated the superior performance of our unified constraint propagation."
+Progression of Decomposed Situation Calculus Theories,"reasoning about actions
+decomposition of logical theories
+situation calculus
+basic action theory
+progression
+forgetting
+decomposability
+inseparability","Action, Change, and Causality",Knowledge Representation and Reasoning,"In many tasks related to reasoning about consequences of a logical theory, it is desirable to decompose the theory into a number of components with weakly-related or independent signatures. This facilitates reasoning when signature of a query formula belongs to only one of the components. However, a theory may be subject to change due to execution of actions affecting features mentioned in the theory. Having once computed a decomposition of a theory, one would like to know whether a decomposition has to be computed again in the theory obtained from taking into account all changes resulting from execution of an action. In the paper, we address this problem in the scope of the situation calculus, where change of an initial theory is related to the well-studied notion of progression. Progression provides a form of forward reasoning; it relies on forgetting values of those features which are subject to change and computing new values for them. We prove new results about properties of decomposition components under forgetting and show when a decomposition can be preserved in progression of an initial situation calculus theory."
+How to Cut a Cake Before the Party Ends,"Cake cutting
+Fair division
+Computational social choice","Mechanism Design
+Social Choice / Voting",Multiagent Systems,"For decades researchers have struggled with the problem of envy-free cake cutting: how to divide a divisible good between multiple agents so that each agent likes his own allocation best. Although an envy-free cake cutting protocol was ultimately devised, it is unbounded, in the sense that the number of operations can be arbitrarily large, depending on the preferences of the agents. We ask whether bounded protocols exist when the agents' preferences are restricted. Our main result is an envy-free cake cutting protocol for agents with piecewise linear valuations, which requires a number of operations that is polynomial in natural parameters of the given instance."
+Reciprocal Hash Tables for Nearest Neighbor Search,"locality sensitive hashing
+nearest neighbor search
+hash table construction
+reciprocal hash tables","Search (General/Other)
+Information Retrieval
+Machine Learning (General/other)","Heuristic Search and Optimization
+Knowledge-Based Systems
+Machine Learning","Recent years have witnessed the success of hashing techniques in approximate nearest neighbor search. In practice, multiple hash tables are usually employed to retrieve more desired results from all hit buckets of each table. However, there are rare works studying the unified approach to constructing multiple informative hash tables except the widely used random way. In this paper, we regard the table construction as a selection problem over a set of candidate hash functions. With the graph representation of the function set, we propose an efficient solution that sequentially applies normalized dominant set to finding the most informative and independent hash functions for each table. To further reduce the redundancy between tables, we explore the reciprocal hash tables in a boosting manner, where the hash function graph is updated with high weights emphasized on the misclassified neighbor pairs of previous hash tables. The construction method is general and compatible with different types of hashing algorithms using different feature spaces and/or parameter settings. Extensive experiments on two large-scale benchmarks demonstrate that the proposed method outperforms both naive construction method and state-of-the-art hashing algorithms, with up to 65.93% accuracy gains."
+Automated Workflow Synthesis,"human computation
+crowd computing
+program synthesis","Distributed Problem Solving
+Computational Social Science
+Decision/Utility Theory","Multiagent Systems
+Applications
+Reasoning under Uncertainty","By coordinating efforts from humans and machines, human computation
+systems can solve problems that machines cannot tackle alone. A
+general challenge is to design efficient human computation algorithms
+or workflows with which to coordinate the work of the crowd. We
+explore automated workflow synthesis aimed at ideally harnessing
+human efforts by learning about the crowd's performance on tasks and
+synthesizing an optimal workflow for solving a problem.  We present
+experimental results for human sorting tasks, which demonstrate both
+the benefit of understanding and optimizing the structure of
+ workflows based on observations. Results also demonstrate the
+benefits of using value of information to guide experiments for
+identifying efficient workflows with fewer experiments."
+Video Saliency Detection via Dynamic Consistent Spatio-Temporal Attention Modelling,"Video Saliency Map
+Spatio-Temporal Attention Model
+Optical Flow",Cognitive Modeling,Multidisciplinary Topics,"Human vision system actively seeks salient regions and movements in video sequences to reduce the search effort. Modeling computational visual saliency map provides important information for semantic understanding in many real world applications. In this paper, we propose a novel video saliency detection model for detecting the attended regions that correspond to both interesting objects and dominant motions in video sequences. In spatial saliency map, we in-herit the classical bottom-up spatial saliency map based on intensity, color, contrast, and orientation features in pixel-level. In temporal saliency map, a novel optical flow model is proposed based on the dynamic consistency of motion. The spatial and the temporal saliency maps are constructed and further fused together to create a novel attention model. The proposed attention model is evaluated on three video datasets. Empirical validations demonstrate the salient regions detected by our dynamic consistent saliency map highlight the interesting objects effectively and efficiency. More importantly, the automatically video attended regions detected by proposed attention model are consistent with the ground truth saliency maps of eye movement data."
+Symmetry-Aware Marginal Density Estimation,"statistical relational learning
+Markov logic network
+lifted inference
+statistics
+Rao-Blackwell
+estimation theory
+marginal density estimation
+probabilistic inference
+probabilistic graphical models","Big Data / Scalability
+Machine Learning (General/other)
+Probabilistic Inference
+Relational Probabilistic Models","Machine Learning
+Reasoning under Uncertainty",Concepts from the field of statistics are leveraged to analyze and improve the scalability of inference in large probabilistic models that exhibit symmetries. A novel Rao-Blackwell marginal density estimator is introduced and shown both analytically and empirically to outperform standard estimators. The developed theory and algorithms apply to a broad class of  probabilistic models including statistical relational models considered not susceptible to lifted probabilistic inference.
+Improving WalkSAT for Random $k$-Satisfiability Problem with $k>3$,"WalkSAT
+Random $k$-Satisfiability Problem
+Multilevel Make
+Linear Make","SAT and CSP: Solvers and Tools
+Heuristic Search
+Constraint Satisfaction","Constraints and Satisfiability
+Heuristic Search and Optimization","Stochastic local search (SLS) algorithms are well known for their ability to efficiently find models of randomly generated instances of the Boolean satisfiablity (SAT) problem. One of the most famous SLS algorithms for SAT is WalkSAT, which is an initial algorithm that has wide influence among modern SLS algorithms. Recently, there has been increasing interest in WalkSAT, due to the discovery of its great power on large random 3-SAT instances. However, the performance of WalkSAT on random $k$-SAT instances with $k>3$ lags far behind. Indeed, there have been few works in improving SLS algorithms for such instances. This work takes a first large step towards this direction. We propose a novel concept namely $multilevel$ $make$. Based on this concept, we design a scoring function called $linear$ $make$, which is utilized to break ties in WalkSAT, leading to a new algorithm called WalkSAT$lm$. Our experimental results on random 5-SAT and 7-SAT instances show that WalkSAT$lm$ improves WalkSAT by orders of magnitudes. Moreover, WalkSAT$lm$ significantly outperforms state-of-the-art SLS solvers on random 5-SAT instances, while competes well on random 7-SAT ones. Additionally, WalkSAT$lm$ performs very well on random instances from SAT Challenge 2012, indicating its robustness."
+A Generalized Student-t Based Approach to Mixed-Type Anomaly Detection,"Outlier Detection
+Anomaly Detection
+Mixed Type Data
+INLA","Bayesian Learning
+Data Mining and Knowledge Discovery
+Graphical Model Learning
+Unsupervised Learning (Other)",Machine Learning,"Anomaly detection for mixed-type data is an important problem that has not been well addressed in the machine learning field. There are two challenging issues for mixed-type datasets, namely modeling mutual correlations between mixed-type attributes and capturing large variations due to anomalies. This paper presents UnREBAD, an Unsupervised Robust Error Buffering approach for Anomaly Detection in mixed-type datasets. A new variant of the generalized linear model is proposed to model the dependency between mixed-type attributes. The model incorporates an error buffering component based on Student-t distribution to absorb the variations caused by anomalies. However, because of the non-Gaussian design, the problem becomes analytically intractable. We propose a novel Bayesian inference approach, which integrates Laplace approximation and several computational optimizations, and is able to efficiently approximate the posterior of high dimensional latent variables by iteratively updating the latent variables in groups. Extensive experimental evaluations based on 13 benchmark datasets demonstrate the effectiveness and efficiency of UnREBAD."
+Causal Transportability with Limited Experiments,"Causality
+Transportability
+Meta-analysis
+Transfer learning","Action, Change, and Causality
+Bayesian Networks","Knowledge Representation and Reasoning
+Reasoning under Uncertainty","We address the problem of transferring causal knowledge learned in one environment to another, potentially different environment, when only limited experiments may be conducted at the source. This generalizes the treatment of transportability introduced in [Pearl and Bareinboim, 2011; Bareinboim and Pearl, 2012b], which deals with transferring causal information when any experiment can be conducted at the source. Given that it is not always feasible to conduct certain controlled experiments, we consider the decision problem  whether  experiments on a selected subset Z of variables together with qualitative assumptions encoded in a diagram may render causal effects in the target environment computable from the available data. This problem, which we call z-transportability, reduces to ordinary transportability when Z is all-inclusive, and, like the latter, can be given syntactic characterization using the do-calculus [Pearl, 1995; 2000].  This paper establishes a necessary and sufficient condition for causal effects in the target  domain  to be estimable from both the non-experimental information available and the limited experimental information transferred from the source. We further provides a complete algorithm for computing the transport formula, that is, a way of fusing experimental and observational information to synthesize an unbiased estimate of the desired  causal  relation."
+Rank Aggregation via Low-rank and Structured-sparse Decomposition,"Rank aggregation
+Low-rank matrices
+Structured-sparsity
+Meta-search",Preferences/Ranking Learning,Machine Learning,"Rank aggregation, which combines multiple individual rank lists to
+obtain a better one, is a fundamental technique in various
+applications such as meta-search and recommendation systems. Most
+existing rank aggregation methods blindly combine multiple rank
+lists with possibly considerable noises, which often degrades their
+performances. In this paper, we propose a new model for
+\textit{robust rank aggregation (RRA)} via matrix learning, which
+recovers a latent rank list from the possibly incomplete and noisy
+input rank lists. In our model, we construct a pairwise comparison
+matrix to encode the order information in each input rank list.
+Based on our observations, each comparison matrix can be naturally
+decomposed into a shared low-rank matrix, combined with a deviation
+error matrix which is the sum of a column-sparse matrix and a
+row-sparse one. The latent rank list can be easily extracted from
+the learned low-rank matrix. The optimization formulation of RRA has
+an element-wise multiplication operator to handle missing values, a
+symmetric constraint on the noise structure, and a factorization
+trick to restrict the maximum rank of the low-rank matrix. To solve
+this challenging optimization problem, we propose a novel procedure
+based on the Augmented Lagrangian Multiplier scheme. We conduct
+extensive experiments on meta-search and collaborative filtering
+benchmark datasets. The results show that the proposed RRA has
+superior performance gain over several state-of-the-art algorithms
+for rank aggregation."
+Computational Aspects of Nearly Single-Peaked Electorates,"Computational social choice
+(Nearly) Single-peaked profiles
+Voting
+Manipulation
+Computational complexity
+Algorithms",Social Choice / Voting,Multiagent Systems,"Manipulation, bribery, and control are well-studied ways of changing the outcome of an election. Many voting systems are in the general case computationally resistant to some of these manipulative actions. However when restricted to single-peaked electorates, these systems suddenly become easy to manipulate. Recently, Faliszewski, Hemaspaandra, and Hemaspaandra studied the complexity of dishonest behavior in nearly single-peaked electorates. These are electorates that are not single-peaked but 
+close to it according to some distance measure.
+
+In this paper we introduce several new distance measures regarding single-peakedness. We prove that determining whether a given profile is nearly single-peaked is in many cases NP-complete. For one case we present a polynomial-time algorithm.
+Furthermore, we explore the relations between several notions of nearly single-peakedness and study the complexity of manipulation for nearly single-peaked elections."
+On the Value of using Group Discounts under Price Competition,"Group discounts
+Price competition
+Stable matching
+Optimal pricing","E-Commerce
+Game Theory
+Mechanism Design
+Uncertainty in AI (General/Other)","Multiagent Systems
+Reasoning under Uncertainty","The increasing use of group discounts
+has provided opportunities
+for buying groups with diverse preferences to coordinate their
+behavior in order to exploit the best offers from multiple vendors.
+We analyze this problem from the viewpoint of the vendors, asking
+under what conditions a vendor should adopt a volume-based price schedule
+rather than posting a fixed price, either as a monopolist or when competing
+with other vendors. When vendors have uncertainty about buyers' valuations
+specified by a known distribution, we show that a vendor is always better
+off posting a fixed price, provided that buyers' types are i.i.d. and
+other vendors also use fixed prices. We also show that these
+assumptions cannot be relaxed: if buyers are not i.i.d.,
+or other vendors post discount schedules,
+then posting a schedule may yield higher profit for the vendor.
+We provide similar results under a distribution-free uncertainty model,
+where vendors try to minimize their maximum regret over all type realizations."
+Bundling Attacks in Judgment Aggregation,"Bundling
+Judgment Aggregation
+Average case complexity","Game Theory
+Mechanism Design
+Social Choice / Voting",Multiagent Systems,"We consider judgment aggregation over multiple independent issues, where the chairperson has her own opinion, and can try to bias the outcome by bundling several issues together. Since for each bundle judges must give a uniform answer on all issues, different partitions of the issues may result in an outcome that is significantly different than the ``true'', issue-wise, decision. 
+
+We prove that the bundling problem faced by the chairperson, i.e. trying to bias the outcome towards her own opinion, is computationally difficult in the worst case. Then we study the probability that an effective bundling attack exists as the disparity between the opinions of the judges and the chair varies. We show that if every judge initially agrees with the chair on every issue with probability of at least 1/2, then there is almost always a bundling attack (i.e. a partition) where the opinion of the chair on all issues is approved. Moreover, such a partition can be found efficiently. In contrast, when the probability is lower than 1/2 then the chair cannot force her opinion even on a single issue."
+Bounding the Cost of Stability in Games over Interaction Networks,"Cooperative games
+Social networks
+Cost of stability
+Subsidies
+Coalitions","Coordination and Collaboration
+Game Theory
+Mechanism Design
+Social Networks","Multiagent Systems
+Applications","We study stability of cooperative games played over an interaction network, 
+in a model that was introduced by Myerson (1977).
+We show that the cost of stability of such games (i.e., the subsidy required to stabilize the game) can be bounded in terms of natural parameters of their underlying interaction networks. 
+
+Specifically, we prove that if the treewidth of the interaction network H is k, 
+then the relative cost of stability is at most k+1, 
+and if the pathwidth of H is k',
+then the relative cost of stability is at most k'.
+We show that these bounds are tight for all k >= 2 and all k' >= 1, respectively."
+Formalizing Hierarchical Clustering as Integer Linear Programming,"Hierarchical Clustering
+Integer Programming
+Global Optimization","Constraint Optimization
+Optimization
+Ontologies
+Clustering
+Unsupervised Learning (Other)
+Machine Learning (General/other)
+Constraint Satisfaction","Constraints and Satisfiability
+Heuristic Search and Optimization
+Knowledge-Based Systems
+Machine Learning","Hierarchical clustering is typically implemented as a greedy heuristic algorithm with no explicit objective function. In this work we formalize hierarchical clustering as an integer linear programming (ILP) problem with a natural objective function and the dendrogram properties enforced as linear constraints.  Though exact solvers exists for ILP we show that a simple randomized algorithm and a linear programming (LP) relaxation can be used to provide approximate solutions faster.  Formalizing hierarchical clustering also has the benefit that relaxing the constraints can produce novel problem variations such as overlapping clusterings.  Our experiments show that our formulation is capable of outperforming standard agglomerative clustering algorithms in a variety of settings, including traditional hierarchical clustering as well as learning overlapping clusterings."
+Clustering with Complex Constraints - Algorithms and Applications,"Constrained clustering
+Quadratic programming
+Personal information management
+Logical constraints","Clustering
+Data Mining and Knowledge Discovery",Machine Learning,"Clustering with constraints is an important and developing area. However, most work is confined to conjunctions of simple together and apart constraints which limit their usability. In this paper, we propose a new formulation of constrained clustering that is able to incorporate not only existing types of constraints but also more complex logical combinations beyond conjunctions. We first show how any statement in conjunctive normal form (CNF) can be represented as a linear inequality. Since existing clustering formulations such as spectral clustering cannot easily incorporate these linear inequalities, we propose a quadratic programming (QP) clustering formulation to accommodate them. This new formulation allows us to have much more complex guidance in clustering. We demonstrate the effectiveness of our approach in two applications on text and personal information management. We also compare our algorithm against existing constrained spectral clustering algorithm to show its efficiency in computational time."
+GiSS: Combining Gibbs Sampling and SampleSearch for Inference in Mixed Probabilistic and Deterministic Graphical Models,"Probabilistic Graphical Models
+Approximate Inference
+Gibbs Sampling
+Importance Sampling
+Markov Chain Monte Carlo methods","Bayesian Networks
+Graphical Models (Other)
+Probabilistic Inference",Reasoning under Uncertainty,"Mixed probabilistic and deterministic graphical models are ubiquitous in real-world applications. Unfortunately, Gibbs sampling, a popular MCMC technique, does not converge to the correct answers in presence of determinism and therefore cannot be used for inference in such models. In this paper, we propose to remedy this problem by combining Gibbs sampling with SampleSearch, an advanced importance sampling technique which leverages  complete SAT/CSP solvers to generate high quality samples from hard deterministic spaces. We call the resulting algorithm, GiSS. Unlike Gibbs
+sampling which yields unweighted samples, GiSS yields weighted samples. Computing these weights exactly can be computationally expensive and therefore we propose several approximations. We show that our new weighting schemes yield consistent estimates and demonstrate experimentally that GiSS is competitive in terms of accuracy with state-of-the-art approximate inference algorithms such as SampleSearch, MC-SAT and Belief propagation."
+An Agent Design for Repeated Negotiation and Information Revelation with People,"Human-Computer Decision-Making
+Human-Computer Interaction
+Negotiation","Negotiation and Contract-Based Systems
+Human-Computer Interaction","Multiagent Systems
+Multidisciplinary Topics","Many negotiations in the real world are characterized by incomplete
+  information, and participants' success depends on their ability to
+  reveal information in a way that facilitates agreement without
+  compromising their individual gains.  This paper presents a novel
+  agent design for repeated negotiation in incomplete information
+  settings that learns to reveal information strategically during the
+  negotiation process. The agent used classical machine learning
+  techniques to predict how people make and respond to offers during
+  the negotiation, how they reveal information, and their response to
+  potential revelation actions by the agent. The agent was evaluated
+  empirically in an extensive empirical study spanning hundreds of
+  human subjects. Results show that the agent was able to outperform
+  people. It learned to (1) make offers that were beneficial to people
+  while not compromising its own benefit; (2) incrementally reveal
+  information to people in a way that increased its expected
+  performance. We also show the agent was successful in new settings
+  without the need to acquire additional data.  This work demonstrates
+  the efficacy of combining machine learning with opponent modeling
+  techniques towards the design of computer agents for negotiating
+  with people in settings of incomplete information."
+A Maximum K-Min Approach for Classification,"Classification
+Maximin
+Maximum K Min",Classification,Machine Learning,"Over the past decades, Maximin/Minimax Classifiers have been proven to be of excellent performance in numerous applications. In this paper, a novel robust Maximum K-Min criterion for classification is proposed which focuses on maximizing the gain obtained by the $K$ worst-classified instances while ignoring the remaining ones.The original combinatorial explosion problem is reformulated into a convex optimization problem with linear number of inequality constrains, which can be efficiently solved via standard convex optimization methods and guarantees a global optimum solution. To verify the performance of Maximum K-Min approach, a naive Linear Maximum K-Min classifier and a Nonlinear Maximum K-Min classifier are proposed for 2-class classification. The experiment results based on $10$ datasets show that the classification accuracy of Maximum K-Min classifiers is competitive with the state-of-the-art classifiers of Support Vector Machine and Logistic Regression."
+RockIt: Exploiting Parallelism and Symmetry for MAP Inference in Statistical Relational Models,"Statistical Relational Models
+MAP Inference
+Markov Logic
+Cutting Plane Aggregation","Constraint Optimization
+SAT and CSP: Evaluation and Analysis
+SAT and CSP: Modeling/Formulations
+SAT and CSP: Solvers and Tools
+Graphical Models (Other)
+Probabilistic Inference
+Relational Probabilistic Models","Constraints and Satisfiability
+Reasoning under Uncertainty","In this paper we present RockIt a maximum a-posteriori (MAP) query engine for statistical relational models. MAP inference in graphical models is an optimization problem and can naturally be mapped to integer linear programs (ILPs). With this paper, we present several optimizations for ILP translation of MAP queries including the meta algorithm Cutting Plane Aggregation (CPA). CPA exploits context-specific symmetries, that is, symmetries introduced by evidence  and bundles large numbers of  linear constraints. The resulting counting constraints lead to more compact ILPs and, more importantly, make the symmetry of the ground model explicit to state-of-the-art ILP solvers. Moreover, we parallelize all parts of the MAP inference pipeline in order to take advantage of multi-core architectures.
+
+We conducted numerous experiments on standard Markov logic networks (MLN) benchmarks, demonstrating that RockIt outperforms state-of-the-art systems such as Alchemy and Tuffy both in terms of efficiency and quality of results."
+Multi-Armed Bandit with Budget Constraint and Variable Costs,"multi-armed bandit
+online learning
+ad exchange","Online Learning
+E-Commerce","Machine Learning
+Multiagent Systems","We study the multi-armed bandit problems with budget constraint and variable costs (MAB-BV). In this setting, pulling an arm will receive a random reward together with a random cost, and the objective of an algorithm is to pull a sequence of arms in order to maximize the expected total reward with the costs of pulling those arms complying with a budget constraint. This new setting models many Internet applications (e.g., ad exchange, sponsored search, and cloud computing) in a more accurate manner than previous settings where the pulling of arms is either costless or with a fixed cost. We propose two UCB based algorithms for the new setting. The first algorithm needs prior knowledge about the lower bound of the expected costs when computing the exploration term. The second algorithm eliminates this need by estimating the minimal expected costs from empirical observations, and therefore can be applied to more real-world applications where prior knowledge is not available. We prove that both algorithms have nice learning abilities, with regret bounds of $O(\ln B)$. Furthermore, we show that when applying our proposed algorithms to a previous setting with fixed costs (which can be regarded as our special case), one can improve the previously obtained regret bound. Our simulation results on real-time bidding in ad exchange verify the effectiveness of the algorithms and are consistent with our theoretical analysis."
+Abstract Preference Frameworks — a Unifying Perspective on Separability and Strong Equivalence,"Reasoning with Preferences
+Strong Equivalence
+Separability in Preference Frameworks","Nonmonotonic Reasoning
+Preferences
+Qualitative Reasoning",Knowledge Representation and Reasoning,"To study mechanisms common across a variety of preference
+formalisms, we introduce a novel abstract preference
+framework. It makes no syntactic assumptions and uses
+most general representations to model the semantics. We
+use our abstract preference framework to study strong
+equivalence in preference formalisms, a version of
+equivalence that guarantees semantic-preserving
+replacements of parts of preference theories, and is
+fundamental for preference rewriting and modularity.
+To this end we identify abstract postulates in the
+language of preference frameworks, capturing natural
+semantic properties of preferences, and show that they
+lead to elegant characterizations, applicable in many
+practical settings. In a similar way, we study the
+separability of constraints and preferences. Preference
+languages have to capture constraints on the domain of
+interest that give rise to intended outcomes, and
+preferences that describe what is desirable. In many
+preference formalisms these two objectives are clearly
+separated, in some others they are not. We identify
+abstract postulates that guarantee separability of a
+preference formalism and lead to its ""separated"" variant."
+Equilibria of Online Scheduling Algorithms,"Online Games
+Equilibrium Analysis
+Scheduling Algorithms
+Competitive Queues
+Non-Bayesian Equilibria",Game Theory,Multiagent Systems,"We describe a model for competitive online scheduling algorithms.  Two servers, each with a single observable queue, compete for customers.  Upon arrival, each customer strategically chooses the queue with minimal expected wait time.  Each scheduler wishes to maximize its number of customers, and can strategically select which scheduling algorithm, such as First-Come-First-Served (FCFS), to use for its queue.  This induces a game played by the servers and the customers.
+
+We consider a non-Bayesian setting, where servers and customers play to maximize worst-case payoffs.  We show that there is a unique subgame perfect safety-level equilibrium and we describe the associated scheduling algorithm (which is not FCFS).  The uniqueness result holds for both randomized and deterministic algorithms, with a different equilibrium algorithm in each case.
+
+When the goal of the servers is to minimize competitive ratio, we prove that it is an equilibrium for each server to apply FCFS:  each server obtains the optimal competitive ratio of 2."
+A Robust Bidirectional Search Using Heuristic Improvement,"Bidirectional Search
+Heuristic Search
+Heuristic Correction
+Perimeter Search","Heuristic Search
+Evaluation and Analysis (Search and Optimization)
+Search (General/Other)",Heuristic Search and Optimization,"Although the heuristic search algorithm A* is well-known to be
+optimally efficient, this result explicitly assumes forward search.
+Bidirectional search has long held promise for surpassing A*'s
+efficiency, and many varieties have been proposed, but it has proven
+difficult to achieve robust performance across multiple domains in
+practice.  We introduce a simple bidirectional search algorithm called
+Auto-Tuning A* that judiciously performs backward search to improve
+the accuracy of the forward heuristic function.  We assess its
+theoretical properties and empirically evaluate its performance across
+seven benchmark domains.  In the best case, it yields a factor of six
+reduction in node expansions and CPU time compared to A*, and in the
+worst case, its overhead is provably bounded by a user-supplied
+parameter, such as 1\%.  Viewing performance across all domains, it
+also surpasses previously proposed bidirectional search algorithms.
+These results indicate that Auto-Tuning A* is robust way to leverage
+bidirectional search in practice."
+Bribery in Voting With Soft Constraints,"Bribery
+Voting
+Soft Constraints","Preferences
+Social Choice / Voting","Knowledge Representation and Reasoning
+Multiagent Systems","We consider a multi-agent scenario where a collection of agents needs to select a common decision from a large set of possible decisions, over which they express their preferences. Such a decision set has a combinatorial structure, that is, each candidate is an element of the Cartesian product of the domains of some variables. We assume agents compactly express their preferences over the candidates via soft constraints. We consider various aggregation methods: some are sequential, in the sense that they aggregate the preferences over one variable at a time, and an other one is one-step, i.e., it  aggregates the preferences over complete assignments of the variables. We study the complexity of influencing such aggregation methods through bribery: How computationally complex is it for an external agent to determine whether by paying certain agents to change their preferences, within a certain budget,  a specified candidate can be made the winner decision? We prove that bribery is NP-complete for the considered sequential aggregation methods (based on Plurality, Approval, and Borda)  for most of the cost schemes we defined, while the problem is polynomial for one-step Plurality."
+Sparse Multi-task Learning for Detecting Influential Nodes in an Implicit Diffusion Network,"Influential Node detection
+Information Diffusion
+Multi-task Learning
+Sparse Learning
+Accelerated Gradient Descent","Dimension Reduction/Feature Selection
+Transfer, Adaptation, Multitask Learning
+Machine Learning (General/other)",Machine Learning,"How to identify influential nodes is a central research topic in information diffusion analysis. Many existing methods rely on the assumption that the network structure is completely known by the model. However, in many applications, such a network is either unavailable or insufficient to explain the underlying information diffusion phenomena. To address this challenge, we develop a multi-task sparse linear influence model (MSLIM), which can simultaneously predict the volume for each contagion and automatically identify sets of the most influential nodes for different contagions. Our method is based on the linear influence model with two main advantages: 1) it does not require the network structure; 2) it can detect different sets of the most influential nodes for different contagions. To solve the corresponding convex optimization problem for learning the model, we adopt the accelerated gradient descent (AGM) framework and show that there is an exact closed-form solution for the proximal mapping. Therefore, the optimization procedure achieves the optimal first-order convergence rate and can be scaled to very large datasets. The proposed model is validated on a set of 2.6 millions of tweets of 1000 users on twitter. We show that MSLIM can efficiently select the most influential users for specific contagions. We also present several interesting patterns of the selected influential users."
+Vesselness Features and the Inverse Compositional AAM for Robust Face Recognition using Thermal IR,"Vascular
+Network
+Blood
+Flow","Other Applications
+Human-Computer Interaction
+Vision, Object Recognition, and Perception","Applications
+Multidisciplinary Topics
+Robotics","Over the course of the last decade, infrared (IR) and particularly thermal IR imaging based face recognition has emerged as a promising complement to conventional, visible spectrum based approaches which continue to struggle when applied in the real world. While inherently insensitive to visible spectrum illumination changes, IR images introduce specific challenges of their own, most notably sensitivity to factors which affect facial heat emission patterns, e.g. emotional state, ambient temperature, and alcohol intake. In addition, facial expression and pose changes are more difficult to correct in IR images because they are less rich in high frequency detail which is an important cue for fitting any deformable model. In this paper we describe a novel method which addresses these major challenges. Specifically, to normalize for pose and facial expression changes we generate a synthetic frontal image of a face in a canonical, neutral facial expression from an image of the face in an arbitrary pose and facial expression. This is achieved by piecewise affine warping which follows active appearance model (AAM) fitting. This is the first publication which explores the use of an AAM on thermal IR images; we propose a pre-processing step which enhances detail in thermal images, making AAM convergence faster and more accurate. To overcome the problem of thermal IR image sensitivity to the exact pattern of facial temperature emissions we describe a representation based on reliable anatomical features. In contrast to previous approaches, our representation is not binary; rather, our method accounts for the reliability of the extracted features. This makes the proposed representation much more robust both to pose and scale changes. The effectiveness of the proposed approach is demonstrated on the largest public database of thermal IR images of faces on which it achieves perfect recognition performance and significantly outperforms previously described methods."
+"Reasoning about Conditional Independence under Uncertainty: Axioms, Algorithms and Levesque's Situations to the Rescue","Axiomatization
+Conditional independence
+Database dependency
+Implication problem
+Missing data
+Non-classical logic
+Propositional logic","Automated Reasoning and Theorem Proving
+Uncertainty in AI (General/Other)","Knowledge Representation and Reasoning
+Reasoning under Uncertainty","The implication problem of probabilistic conditional independencies is investigated in the presence of missing data. Here, graph separation axioms fail to hold for saturated conditional independencies, unlike the known idealized case with no missing data. Several axiomatic, algorithmic, and logical characterizations of the implication problem for saturated conditional independencies are established. In particular, equivalences are shown to the implication problem of a propositional fragment under Levesque's situations, and that of Lien's class of multivalued database dependencies under null values."
+m-Transportability: Transportability of Causal Effects from Multiple Environments,"causal relations
+transfer knowledge
+domain adaptation
+transportability","Action, Change, and Causality",Knowledge Representation and Reasoning,"We introduce m-transportability, a generalization of transportability, which offers a license to transfer causal information obtained from experiments and observations in m>=1 source environments to estimate a causal effect in a given target environment. We provide a novel characterization of m-transportability that directly exploits the completeness of do-calculus to obtain the necessary and sufficient conditions for m-transportability. We provide a sound and complete algorithm for deciding m-transportability that: (i) indicates non-m-transportability if a causal relation is not m-transportable from a given set of m source environments to a specified target environment; (ii) produces a transport formula, that is, a recipe for combining experimental information from m source environments with only observational information from the target environment to synthesize an estimate of the desired causal effect, otherwise."
+Lazy Gaussian Process Committee for Real-Time Online Regression,"Gaussian process
+Online learning
+Scalability
+Bayesian model
+Ensemble learning","Big Data / Scalability
+Kernel Methods
+Online Learning",Machine Learning,"A significant problem of Gaussian process (GP) is its unfavorable scaling with a large amount of data. To overcome this issue, we present a novel GP approximation scheme for online regression. Our model is based on a combination of multiple GPs with random hyperparameters. The model is trained by incrementally allocating new examples to a selected subset of GPs. The selection is carried out efficiently by optimizing a submodular function. Experiments on real-world data sets showed that our method outperforms existing online GP regression methods in both accuracy and efficiency. The applicability of the proposed method is demonstrated by the mouse-trajectory prediction in an Internet banking scenario."
+Social Rankings in Human-Computer Committees,"Human-Computer Decision-Making
+Human-Computer Interaction
+AI and Social Science","Computational Social Science
+Human-Computer Interaction","Applications
+Multidisciplinary Topics","Despite committees and elections being widespread in the real-world,
+  the design of agents for operating in human-computer committees has
+  received far less attention than the theoretical analysis of voting
+  strategies.  We address this gap by providing an agent design that
+  outperforms other voters in groups comprising both people and
+  computer agents.  In our setting participants vote by simultaneously
+  submitting a ranking over a set of candidates and the election
+  system uses a social welfare rule  to select a
+  ranking that minimizes disagreements with participants' votes.  We
+  ran an extensive study in which hundreds of people participated in
+  repeated voting rounds with other people as well as computer agents
+  that differed in how they employ strategic reasoning in their voting
+  behavior.  Our results show that over time, people learn to deviate
+  from truthful voting strategies, and use heuristics to guide their
+  play, such as repeating their vote from the previous round.  We show
+  that a computer agent using a best response voting strategy was able
+  to outperform people in the game.   Our study has implication for
+   agent designers, highlighting the types of strategies that enable
+   agents to succeed in committees comprising both human and computer
+   participants.
+  This is the first work to study the role of computer
+  agents in voting settings involving both human and agent
+  participants."
+Data-Parallel Computing Meets STRIPS,"planning
+query optimization
+data-parallel computing","Optimization
+Other Applications
+Deterministic Planning
+Planning (General/Other)","Heuristic Search and Optimization
+Applications
+Reasoning about Plans, Processes, and Actions","The increased demand for distributed computations on “big data” has led to
+solutions such as SCOPE, DryadLINQ, Pig, and Hive, which  
+allow the user to specify queries in an SQL-like language, enriched with sets
+of user-defined operators. 
+The lack of exact semantics for user-defined operators interferes with the
+query optimization process, thus putting the burden of suggesting, at least
+partial, query plans on the user.
+In an attempt to ease this burden, we propose a formal model that allows for
+data-parallel program synthesis (DPPS) in a semantically well-deﬁned manner. We
+show that this model generalizes existing frameworks for data-parallel
+computation, while providing the flexibility of query plan generation that is
+currently absent from these frameworks. In particular, we show how existing,
+off-the-shelf, AI planning tools can be used for solving DPPS tasks."
+Interdependent Multi-Issue Negotiation for Energy Exchange in Remote Communities,"Concurrent Negotiation
+Negotiation Protocol
+Energy Exchange
+Multiagent systems
+Nash bargaining solution
+Complex Negotiation
+Multi-issue negotiation
+Interdependent issues","Negotiation and Contract-Based Systems
+Multiagent Systems (General/other)",Multiagent Systems,"We present a novel negotiation protocol to facilitate energy exchange between off-grid homes that are equipped with renewable energy generation and electricity storage. Our protocol imposes restrictions over negotiation such that it reduces the complex interdependent multi-issue negotiation to one where agents have a strategy profile in subgame perfect Nash equilibrium. We show that our negotiation protocol is tractable, concurrent, scalable and leads to Pareto-optimal outcomes in a decentralised manner. We empirically evaluate our protocol and show that, in this instance, a society of agents can (i) improve the overall utilities by 14% and (ii) reduce their overall use of the batteries by 37%."
+Unsupervised Cluster Matching via Probabilistic Latent Variable Models,"Cluster matching
+Latent variable model
+Bayesian nonparametrics","Bayesian Learning
+Clustering
+Unsupervised Learning (Other)",Machine Learning,"We propose a probabilistic latent variable model for unsupervised cluster matching, which is the task of finding correspondences between clusters of objects in different domains. Existing object matching methods find one-to-one matching in two domains. The proposed model finds many-to-many matching, and can handle multiple domains with different numbers of objects. The proposed model assumes that there are an infinite number of latent vectors that are shared by all domains, and each object is generated using one of the latent vectors and a domain-specific linear projection. By inferring a latent vector to be used for generating each object, objects in different domains are clustered in shared groups, and thus we can find matching between clusters in an unsupervised manner. We present efficient inference procedures of the proposed model based on a stochastic EM algorithm. The effectiveness of the proposed model is demonstrated with experiments using synthetic and real data sets."
+Projected Group Sparse Coding for Image Classification,"sparse learning
+supervised
+dimension reduction",Classification,Machine Learning,"Classic sparse representation for classification (SRC) method fails to incorporate the label information of training images, and meanwhile has a poor scalability due to the expensive computation for L1 norm. In this paper, we propose a novel subspace sparse coding method with utilizing label information to effectively classify the images in the subspace. Our new approach unifies the tasks of dimension reduction and supervised sparse vector learning, by simultaneously preserving the data sparse structure and meanwhile seeking the optimal projection direction in the training stage, therefore accelerates the classification process in the test stage. In particular, for the representation vector learning during the training, we provide a novel algorithm that provides a closed form solution, which significantly reduces the computation time than classic gradient methods. Our method achieves both flat sparsity and structured sparsity for the representation vector, therefore making it more discriminative during the subspace learning and subsequent classification. Finally, the empirical classification experiments on 4 commonly used benchmark data sets demonstrate the effectiveness of our method."
+Deep Manifold Learning,"Multiscale Analysis
+Deep Learning
+Diffusion Wavelets","Dimension Reduction/Feature Selection
+Neural Networks/Deep Learning
+Unsupervised Learning (Other)
+Machine Learning (General/other)",Machine Learning,"Many high-dimensional data sets that lie on a low-dimensional manifold exhibit nontrivial regularities at multiple scales. Most work in manifold learning ignores this multiscale structure. In this paper, we propose approaches to explore the deep structures of manifolds. The proposed approaches are based on the diffusion wavelets model, data driven, and able to directly process directional neighborhood  relationships without ad-hoc symmetrization. The proposed multiscale algorithms are evaluated using both synthetic and real-world data sets."
+Improved Optimal Search Heuristics with Manifold Learning,"Heuristic search
+Machine learning
+Manifold learning
+Euclidean heuristic","Heuristic Search
+Optimization
+Dimension Reduction/Feature Selection","Heuristic Search and Optimization
+Machine Learning","Recently, a Euclidean heuristic (EH) has been proposed for A* search.  EH exploits manifold learning methods to construct an embedding of the state space graph, and derives an admissible heuristic distance between two states from the Euclidean distance between their respective embedded points.  EH has shown good performance and memory efficiency in comparison to other existing heuristics such as differential heuristics. However, its potential has not been fully explored.  In this paper, we propose a number of techniques that can significantly improve the quality of EH. We propose a goal-oriented manifold learning scheme that optimizes the Euclidean distance to goals in the embedding while maintaining admissibility and consistency. We also propose a state heuristic enhancement technique to reduce the gap between heuristic and true distances. The enhanced heuristic is admissible but no longer consistent. We then employ a modified search algorithm that achieves optimality with inconsistent heuristics using consistency check and propagation.  We demonstrate the effectiveness of the above techniques and report un-matched reduction in search costs across several non-trivial benchmark search problems."
+Robust Discrete Matrix Completion,"Discrete matrix completion
+Social network link prediction
+Protein-protein interaction prediction","Information Retrieval
+Biomedical / Bioinformatics
+Social Networks","Knowledge-Based Systems
+Applications","Missing data inference is an important research topic in data mining and has many applications in various disciplines. In many practical problems, such task can be formulated as recovering a matrix from a sampling of its entries. There have been many classic algorithms proposed for such matrix completion problems including recently popular trace norm minimization method. However, most current matrix completion methods seek the matrix global structure in the real number domain and produce predictions that are inappropriate for applications that retain discrete structure. In these cases, an additional step is required to post-process these predictions with either heuristic threshold parameters or some complicated mappings, such ad-hoc process is often both inefficient and impractical. In this paper, we propose a novel robust discrete matrix completion algorithm that produces the prediction from the collection of user specified label values. Such method achieves a high prediction accuracy, very close to the optimal value of competitive methods with threshold values tuning. We solve the daunting integer programming problem via incorporating augmented Lagrangian method in an elegant way, which greatly accelerates the converge process of our method and provides the asymptotic convergence in theory. Extensive experiments have been conducted on 3 types of real data sets and all empirical results demonstrate the effectiveness of our method."
+Spectral Rotation vs K-means in Spectral Clustering,"spectral rotation
+spectral clustering
+k-means","Clustering
+Evaluation and Analysis (Machine Learning)",Machine Learning,"Although spectral clustering is the state-of-the-art data clustering algorithm, the graph based clustering approaches often resort to other clustering methods, such as $K$-means, to get the final cluster structure. The potential flaw of such common practice is that the obtained relaxed continuous spectral solution could severely deviate from the true discrete solution. In this paper, we propose to impose an additional orthonormal constraint to better approximate the optimal continuous solution of the spectral clustering objective function. Such a method, called spectral rotation in literature, optimizes the spectral clustering objective functions better than $K$-means, such that the clustering accuracy is enhanced. We provide efficient algorithm to rigorously solve the new formulated problem, which is not significantly more costly than $K$-means. We also establish the connection between our method and $K$-means approach, to provide theoretical motivation of our method. Experimental results show that our algorithm \emph{consistently} reaches better cut and meanwhile outperforms in clustering metrics than classic spectral clustering methods."
+Guiding Scientific Discovery with Explanations,"eigenbasis modeling
+reconstruction error
+scientific discovery
+machine learning
+interpretable machine learning
+explanations","Data Mining and Knowledge Discovery
+AI and Natural Sciences","Machine Learning
+Applications","In the era of large scientific data sets, there is an urgent need for methods to automatically prioritize data for review. At the same time, for any automated method to be adopted by scientists, it must make decisions that they can understand and trust. In this paper, we propose Discovery through Eigenbasis Modeling of Uninteresting Data (DEMUD), which uses principal components modeling and reconstruction error to prioritize data. DEMUD’s major advance is to offer domain-specific explanations for its prioritizations. We evaluated DEMUD’s ability to quickly identify diverse items of interest and the value of the explanations it provides. We found that DEMUD performs as well or better than existing class discovery methods and provides, uniquely, the first explanations for why those items are of interest. Further, in collaborations with planetary scientists, we found that DEMUD (1) quickly identifies very rare items of scientific value, (2) maintains high diversity in its selections, and (3) provides explanations that greatly improve human classification accuracy."
+Improving the Performance of Consistency Algorithms by Localizing and Bolstering Propagation in a Tree Decomposition,"consistency property
+relational consistency
+solving CSPs
+tree decomposition","Constraint Satisfaction (General/other)
+Constraint Satisfaction",Constraints and Satisfiability,"Certain classes of Constraint Satisfaction Problems (CSPs) can be solved in polynomial time when the consistency level corresponds to a structural parameter of the constraint network such as the treewidth or the hypertree width. In this work we exploit this condition and propose new techniques that allow us to practically approach the necessary consistency level. We proposed to apply the parametrized relational consistency property R(∗,m)C locally to the clusters of a tree decomposition and set the value of m to the total number of relations in the cluster. Moreover, we propose different schemes to bolster the separators to enhance the propagation. We conceptually compare the resulting new consistency properties to other consistency properties, and empirically evaluate them against GAC, maxRPWC and wR(∗,m)C. The empirical results suggest that our technique outperforms GAC, maxRPWC, and wR(∗,m)C in certain hard CSP classes."
+Domain-specific Heuristics in Answer Set Programming,"answer set programming
+answer set solving
+heuristics
+conflict-driven clause learning","SAT and CSP: Solvers and Tools
+Heuristic Search
+Logic Programming
+Knowledge Representation (General/Other)","Constraints and Satisfiability
+Heuristic Search and Optimization
+Knowledge Representation and Reasoning","We introduce a general declarative framework for incorporating domain-specific heuristics into ASP solving.
+We accomplish this by extending the first-order modeling language of ASP by a distinguished heuristic predicate.
+The resulting heuristic information is processed as an equitable part of the logic program and subsequently exploited by the solver when it comes to non-deterministically assigning a truth value to an atom.
+We implemented our approach as a dedicated heuristic in the ASP solver clasp and show its great prospect by an empirical evaluation."
+Dynamic Social Choice: Foundations and Algorithms,"Computational social choice
+Markov decision processes
+Voting",Social Choice / Voting,Multiagent Systems,"Social choice theory provides insights into a variety of collective decision making settings, but nowadays some of its tenets are challenged by Internet environments, which call for dynamic decision making under constantly changing preferences. In this paper we model the problem via Markov decision processes (MDP), where the states of the MDP coincide with preference profiles and a (deterministic, stationary) policy corresponds to a social choice function. We can therefore employ the axioms studied in the social choice literature as guidelines in the design of socially desirable policies. We present tractable algorithms that compute optimal policies under different prominent social choice constraints. Our machinery relies on techniques for exploiting symmetries and isomorphisms between MDPs."
+Information Sharing Under Costly Communication in Joint Exploration,"Multi-Agent Exploration
+Cooperation
+Coordination
+Dynamic spectrum access networks","Coordination and Collaboration
+Multiagent Systems (General/other)",Multiagent Systems,"This paper studies distributed cooperative multi-agent exploration methods in settings where the exploration is costly and the overall performance measure is determined by the minimum performance achieved by any of the individual agents.  Such an exploration setting is applicable to various multi-agent systems, e.g., in Dynamic Spectrum Access exploration. The goal in such problems is to optimize the process as a whole, considering the tradeoffs between the quality of the solution obtained and the cost associated with the exploration and coordination between the agents. Through the analysis of the two extreme cases where coordination is completely free and when entirely disabled, we manage to extract the solution for the general case where coordination is taken to be costly, modeled as a fee that needs to be paid for each additional coordinated agent. The strategy structure for the general case is shown to be threshold-based, and the thresholds which are analytically derived in this paper can be calculated offline, resulting in a very low online computational load. Finally, we analyze the case where the coordination is provided by a self-interested agent, showing that given the option for side-payments better socially-beneficial solutions can be extracted."
+Smart Multi-task Bregman Clustering and Multi-task Kernel Clustering,"Multi-task Clustering
+Multi-task Learning
+Mercer Kernel","Optimization
+Clustering
+Kernel Methods","Heuristic Search and Optimization
+Machine Learning","Multitask Bregman Clustering (MBC) alternatively updates clusters and learns relationship between clusters of different tasks, and the two phases boost each other. However, the boosting does not always have positive effects, it may also cause negative effects. Another issue of MBC is that it cannot deal with nonlinear separable data. In this paper, we show that MBC's process of using cluster relationship to boost the updating clusters phase may cause negative effects, i.e., cluster centroid may be skewed under some conditions. We propose a smart multi-task Bregman clustering (S-MBC) algorithm which identifies negative effects of the boosting and avoids the negative effect if it occurs. We then extend the framework of S-MBC to a smart multi-task kernel clustering (S-MKC) framework to deal with nonlinear separable data. We also propose a specific implementation of the framework which could be applied to any Mercer kernel. Experimental results confirm our analysis, and demonstrate the superiority of our proposed methods."
+Cost-Optimal Planning by Self-Interested Agents,"Classical planning
+Cost optimal planning
+Multi-agent planning
+Selfish agents
+Mechanism design","Distributed Search
+Mechanism Design
+Multiagent Planning
+Deterministic Planning","Heuristic Search and Optimization
+Multiagent Systems
+Reasoning about Plans, Processes, and Actions","As our world becomes better connected, more open ended, production becomes more customized, and autonomous agents no longer appear to be science fiction, a natural need arises for enabling groups of selfish agents to cooperate in generating a plan for diverse tasks that none of them can perform alone in a cost-effective manner. While most work on planning for/by selfish agents revolves around finding stable solutions (e.g., Nash Equilibrium), this work combines techniques from mechanism design with a recently introduced method for distributed planning, in order to find cost optimal (and, thus, social welfare maximizing) solutions. Based on the Vickrey-Clarke-Groves mechanisms, we present both a centralized, and a privacy-preserving distributed mechanism."
+Simple Temporal Problems with Taboo Regions,"Temporal Reasoning
+Constraint Satisfaction
+Algorithms and Complexity","Constraint Optimization
+Constraint Satisfaction (General/other)
+Geometric, Spatial, and Temporal Reasoning
+Scheduling","Constraints and Satisfiability
+Knowledge Representation and Reasoning
+Reasoning about Plans, Processes, and Actions","In this paper, we define and study the general framework of Simple Temporal Problems with Taboo regions (STPTs), and we show how these problems capture metric temporal reasoning aspects which are common to many real-world applications. STPTs encode simple temporal constraints between events and user-defined taboo regions on the timeline during which no event is allowed to execute. We discuss two different variants of STPTs. The first one deals with instantaneous events, while the second one allows for processes with flexible durations. We also provide polynomial-time algorithms for solving them. When not all events or processes can be scheduled outside of the taboo regions, one needs to define and reason about ""soft"" STPTs. We show that even ""soft"" STPTs can be solved in polynomial time, using reductions to max-flow. This also allows for incremental computation, which is central to the successful application of our approach in real-time domains."
+A Cyclic Weighted Median Method for L1 Low-Rank Matrix Factorization with Missing Entries,"low rank matrix factorization
+face modeling
+weighted median","Unsupervised Learning (Other)
+Machine Learning (General/other)",Machine Learning,"A challenging problem in machine learning, information retrieval and computer vision research is how to recover a low-rank representation of the given data in the presence of outliers and missing entries. The L1-norm low-rank matrix factorization (LRMF) has been a popular approach to solving this problem. However, L1-norm LRMF is difficult to achieve due to its non-convexity and non-smoothness, and existing methods are often inefficient and fail to converge to a desired solution. In this paper we propose a novel cyclic weighted median (CWM) method, which is intrinsically a coordinate decent algorithm, for L1-norm LRMF. The CWM method minimizes the objective by solving a sequence of scalar minimization sub-problems, each of which is convex and can be easily solved by the weighted median filter. The extensive experimental results validate that the proposed CWM method outperforms state-of-the-arts in terms of both accuracy and computational efficiency."
+How Bad is Selfish Voting?,"Computational social choice
+Price of anarchy
+Best response dynamics","Game Theory
+Social Choice / Voting",Multiagent Systems,"It is well known that strategic behavior in elections is essentially unavoidable; we therefore ask: how bad can the rational outcome be? We answer this question via the notion of the price of anarchy, using the scores of alternatives as a proxy for their quality and bounding the ratio between the score of the optimal alternative and the score of the winning alternative in Nash equilibrium. Specifically, we are interested in Nash equilibria that are obtained via sequences of rational strategic moves. Focusing on three common voting rules — plurality, veto, and Borda — we provide very positive results for plurality and very negative results for Borda, and place veto in the middle of this spectrum."
+Incremental Learning Framework for Indoor Scene Recognition,"Scene Recognition
+Incremental Learning and Clustering
+Robotics Vision","Human-Robot Interaction
+Vision, Object Recognition, and Perception",Robotics,"This paper presents a novel framework for online incremental place recognition in an indoor environment. The framework addresses the scenario in which scene images are gradually obtained during long-term operation in the real-world indoor environment. Multiple users may interact with the classification system and confirm either current or past prediction results; the system then immediately updates itself to improve the classification system. This framework is based on the proposed n-value self-organizing and incremental neural network (n-SOINN), which has been derived by modifying the original SOINN to be appropriate for use in scene recognition. The evaluation was performed on the standard MIT 67-category indoor scene dataset and shows that the proposed framework achieves the same accuracy as that of the state-of-the-art offline method, while the computation time of the proposed framework is significantly faster and fully incremental update is allowed. Additionally, a small extra set of training samples is incrementally given to the system to simulate the incremental learning situation. The result shows that the proposed framework can leverage such additional samples incrementally and achieve the state-of-the-art result."
+A Topic-Based Coherence Model for Statistical Machine Translation,"coherence
+statistical machine translation
+document-level statistical machine translation
+topic model","Discourse and Dialogue
+Semantics and Summarization
+Natural Language Processing (General/Other)",Natural Language Processing,"Coherence that ties sentences of a text into a meaningfully connected structure is of great importance to text generation and translation. In this paper, we propose a topic-based coherence model to produce coherence for document translation, in terms of the continuity of sentence topics in a text. We automatically extract a coherence chain for each source text to be translated. Based on the extracted source coherence chain, we adopt a maximum entropy classifier to predict the target coherence chain that defines a linear topic structure for the target document. The proposed topic-based coherence model then uses the predicted target coherence chain to help decoder select coherent word/phrase translations. Our experiments show that incorporating the topic-based coherence model into machine translation achieves substantial improvement over both the baseline and previous methods that integrate document topics rather than coherence chains into machine translation."
+Qualitative Planning under Partial Observability in Multi-Agent Domains,"Dec-POMDP
+Planning
+Multi-Agent","Multiagent Planning
+Planning (General/Other)","Multiagent Systems
+Reasoning about Plans, Processes, and Actions","Decentralized POMDPs (Dec-POMDPs) provide a rich, attractive model for planning under uncertainty and partial observability in cooperative multi-agent domains with a growing body of research. In this paper we formulate a qualitative, propositional model for multi-agent planning under uncertainty with partial observability, which we call QDec-POMDP. We show that the worst-case complexity of planning in QDec-POMDPs is similar to that of Dec-POMDPs. Still, because the model is more ""classical"" in nature, it is more compact and easier to specify.  Furthermore, it eases the adaptation of methods used in classical and contingent planning to solve problems to which Dec-POMDPs solution techniques cannot scale up.
+In particular, in this paper we describe a method based on compilation to classical planning, which handles multi-agent planning problems significantly larger than those handled by current Dec-POMDP algorithms."
+Multi-agent Knowledge and Belief Change in the Situation Calculus,"Belief change
+Multi-agent systems
+Situation calculus","Action, Change, and Causality
+Belief Change
+Reasoning with Beliefs",Knowledge Representation and Reasoning,"Belief change is an important research area in Artificial Intelligence. It becomes more perplexing in the presence of multiple agents, since the action of an agent may be partially observable to other agents. In this paper, we present a general approach to reasoning about actions and belief change in multi-agent scenarios. Our approach is based on a multi-agent extension to the situation calculus, augmented by a plausibility relation over situations and another one over actions, which is used to represent agents' different perspectives on actions. When an action is performed, we update the agents' plausibility order over situations by giving priority to the plausibility order over actions, in line with the AGM approach of giving priority to new information. We show that our notion of belief satisfies KD45 properties. When it comes to the special case of belief change of a single agent, we show that our framework satisfies most of the classical AGM, DP, and KM postulates. Finally, we present properties concerning the change of common knowledge and belief of a group of agents."
+From Interest to Function: Location Estimation in Social Media,"Location estimation
+interest mining
+social media","Data Mining and Knowledge Discovery
+Social Networks","Machine Learning
+Applications","Recent years have witnessed the tremendous development of the social media, which possesses a vast number of Internet users. The high-dimension content generated by these users provides a unique opportunity to understand their behavior deeply. As one of the most fundamental topics, location estimation attracts more and more research efforts. Different from the previous literature, we find that user location is strongly related with user interest. Based on this, we first build an detection model to mining user interest from short text, then the mapping between location function and user interest is established and an efficient model is finally presented to predict the user location with convincing fidelity. Thorough evaluations and comparisons on an authentic data set show that our model outperforms the previous approaches greatly and the high efficiency also guarantees its applicability in real-world scenarios."
+Integrating Programing by Example and Natural Language Programing,"Programing by Example
+Natural Language Programing
+Natural Language Processing
+Supervised Learning","Intelligent User Interfaces
+Other Multidisciplinary Topics
+Natural Language Processing (General/Other)","Multidisciplinary Topics
+Natural Language Processing","We motivate the integration of programming by example and natural language programming by developing a system for specifying programs for simple text editing operations. The programs are described with unconstrained natural language instructions, and providing a single example of input/output.
+We show that natural language allows the system to deduce the correct program much more often and much faster than is possible with the input/output example(s) alone, showing that natural language programming and programming by example can be combined in a way that overcomes the ambiguities that both methods suffer from individually, with a minimum of additional effort from the user."
+Filtering with Logic Programs and its Application to General Game Playing,"General Game Playing
+Filtering with logic programs
+Abductive logic programming","Action, Change, and Causality
+Knowledge Representation (General/Other)
+Games and Game Playing","Knowledge Representation and Reasoning
+Applications","Motivated by the problem of building a basic reasoner for general game playing with imperfect information, we address the problem of filtering with logic programs, whereby an agent updates its incomplete knowledge of a program by observations. We develop a filtering method by adapting an existing backward-chaining and abduction method for so-called open logic programs. Experimental results show that this provides for a basic effective and efficient ""legal"" player for general imperfect-information games."
+Supervised Nonnegative Tensor Factorization with Maximum-Margin Constraints,"supervised
+tensor factorization
+maximum-margin","Classification
+Supervised Learning (Other)
+Machine Learning (General/other)","Machine Learning
+Natural Language Processing","Non-negative tensor factorization (NTF) has attracted great attention in the machine learning community. In this paper, we extend traditional non-negative tensor factorization into a supervised discriminative decomposition, referred as Supervised Non-negative Tensor Factorization with Maximum-Margin constraints (SNTFM^2). SNTFM^2 formulates the optimal discriminative factorization of non-negative tensorial data as a coupled least-squares optimization problem via a maximum-margin method. As a result, SNTFM^2 not only faithfully approximates the tensorial data by additive combinations of the basis, but also obtains a strong generalization power to discriminative analysis (in particular for classification in this paper). The experimental results show the superiority of our proposed model over state-of-the-art techniques on both toy and real world data sets."
+The Automated Acquisition of Suggestions from Tweets,"Suggestion Classification
+Factorization Machines
+Feature Sparsity
+Imbalance Classification
+Tweets","Text Classification
+Natural Language Processing (General/Other)",Natural Language Processing,"This paper targets at automatically detecting and classifying user's suggestions from tweets. The short and informal nature of tweets, along with the imbalanced characteristics of suggestion tweets, makes the task extremely challenging. To this end, we develop a classification framework on Factorization Machines, which is effective and efficient especially in classification tasks with feature sparsity settings. Moreover, we tackle the imbalance problem by introducing cost-sensitive learning techniques in Factorization Machines. Extensively experimental studies on a manually annotated real-life data set show that the proposed approach significantly improves the baseline approach, and yields the precision of 71.06% and recall of 67.86%. We also investigate the reason why Factorization Machines perform better. Finally, we introduce the first manually annotated dataset for suggestion classification."
+Supervised Coupled Dictionary Learning with Group Structures for Multi-modal Retrieval,"Multi-modal Retrieval
+Dictionary Learning
+Supervised Learning
+Sparse Coding","Preferences/Ranking Learning
+Supervised Learning (Other)
+Machine Learning (General/other)",Machine Learning,"A better similarity mapping function across heterogenous
+high-dimensional features is very desirable for
+many applications involving multi-modal data.
+In this paper, we introduce coupled dictionary learning
+(DL) into supervised sparse coding for multimodal
+retrieval. We call this Supervised coupled-dictionary learning
+with group structures for Multi-Modal retrieval(SliM^2).
+SliM^2 formulates the multi-modal metric learning as a
+constrained dictionary learning problem. By the utilization
+of intrinsic power of dealing with the heterogenous
+features in DL, SliM^2 first extends uni-modal DL to
+multi-modal DL. Moreover, the label information is employed
+in SliM^2 to discover the shared structure inside
+intra-modality within a same class by a mixed norm
+(i.e., l_1/ l_2 norm). At last, the multi-modal retrieval is
+conducted via a jointly learned mapping function across
+multi-modal data. The experimental results show the
+effectiveness of our proposed model when applied to
+multi-modal retrieval."
+When is Brute-Force Avoidable for CSP?,"Exact Algorithms for CSP
+Exponential Time Hypothesis
+Subexponential Time Complexity
+Theoretical Analysis of CSP
+Foundational Issues","SAT and CSP: Evaluation and Analysis
+Constraint Satisfaction",Constraints and Satisfiability,"A Constraint Satisfaction Problem (CSP) with $n$ variables ranging over a domain of $d$ values can be solved by brute-force in $d^n$ steps (omitting a polynomial factor). With a more careful approach, this trivial upper bound can be improved for certain natural restrictions of the CSP (Feder and Motwani 2002; Beigel and Eppstein 2005; Razgon 2006; Grandoni and Italiano 2006). In this paper we establish theoretical limits to such improvements, and draw a detailed landscape of the subexponential-time complexity of CSP.
+
+We first establish relations between the subexponential-time complexity of CSP and that of other problems, including CNF-Sat. We exploit this connection to provide tight characterizations of the subexponential-time complexity of CSP under common assumptions in complexity theory. For several natural CSP parameters, we obtain threshold functions that precisely dictate the subexponential-time complexity of CSP with respect to the parameters under consideration.
+
+Our analysis provides fundamental results indicating WHETHER AND WHEN one can significantly improve on the brute-force search approach for solving CSP."
+Efficient evolutionary dynamics with extensive-form games,"Evolutionary game theory
+Extensive-form games
+Replicator dynamics","Game Theory
+Multiagent Learning",Multiagent Systems,"Evolutionary game theory combines game theory and dynamical systems and is customarily adopted to describe evolutionary dynamics in multi-agent systems. In particular, it has been proven to be a successful tool to describe multi-agent learning dynamics. To the best of our knowledge, we provide in this paper the first replicator dynamics applicable to the sequence form of an extensive-form game, allowing an exponential reduction of time and space w.r.t. the currently adopted replicator dynamics for normal form. Furthermore, our replicator dynamics is realization equivalent to the standard replicator dynamics for normal form. We prove our results for both discrete-time and continuous-time cases. Finally, we extend standard tools to study the stability of a strategy profile to our replicator dynamics."
+A Framework for Aggregating Influenced CP-nets and its Resistance to Bribery,"Preference aggregation
+CP-nets
+Influence
+Bribery","Preferences
+Social Choice / Voting","Knowledge Representation and Reasoning
+Multiagent Systems","We consider multi-agent settings where a set of agents want to take a collective decision, based on their preferences over the possible candidate options. While agents have their initial inclination, they may interact and influence each other, and therefore modify their preferences, until hopefully they reach a stable state and declare their final inclination. At that point, a voting rule is used to aggregate the agents' preferences and generate the collective decision. Recent work has modeled the influence phenomenon in the case of voting over a single issue. Here we generalize this model to account for preferences over combinatorially structured domains including several issues. We propose a way to model influence when agents express their preferences as CP-nets. We define two procedures for aggregating preferences in this scenario, by interleaving voting and influence convergence, and we study their resistance to bribery."
+"On Power law kernels, corresponding Reproducing Kernel Hilbert Space and applications","Kernels
+Power law
+Tsallis distributions
+Reproducing Kernel Hilbert Space",Kernel Methods,Machine Learning,"The role of kernels is central to machine learning. Motivated by the importance of power law distributions in statistical modeling, in this paper, we propose the notion of power law kernels to investigate power laws in learning problem. We propose two power law kernels by generalizing Gaussian and Laplacian kernels. This generalization is based on distributions, arising out of maximization of a generalized information measure known as nonextensive entropy that is very well studied in statistical mechanics. We prove that the proposed kernels are positive  definite, and provide some insights regarding the corresponding Reproducing Kernel Hilbert Space (RKHS). We also study practical significance of both kernels in classification and regression, and present some simulation results."
+"Search More, Disclose Less","comparison shopping agents
+information disclosure
+experimentation","E-Commerce
+Evaluation and Analysis (Multiagent Systems)
+Multiagent Systems (General/other)",Multiagent Systems,"Experienced shoppers know that the best way to make sure you are getting the best deal for your money is comparison shop before making a purchase. In today's online world, comparison shopping can be substantially facilitated through the use of comparison shopping agents (CSAs). These web-based intelligent software applications allow checking out many online stores prices, saving buyers time and money.  The blooming of CSAs in recent years enables buyers in today's markets to query more than a single CSA per their search, thus substantially expanding the list of sellers whose prices they obtain. From the individual CSA point of view, however, the multi-CSAs querying is definitely non-favorable as most of today's CSAs benefit depends on payments they receive from sellers upon transferring buyers to their websites (and making a purchase).  The most straightforward way for the CSA to improve its competence is through spending more resources on getting more sellers' prices, potentially resulting in a more attractive best price.  In this paper we suggest a complementary approach that improves the attractiveness of the best price returned to the buyer without having to extend the CSAs' price database. The approach, which we term ``selective price disclosure'' relies on removing some of the prices known to the CSA from the list of results returned to the buyer. The advantage of this approach is in the ability to affect the buyer's beliefs regarding the probability of obtaining more attractive prices if querying additional CSAs. The paper presents two methods for choosing the subset of prices to be presented to a fully-rational buyer, attempting to overcome the computational complexity associated with evaluating all possible subsets. The effectiveness and efficiency of the methods are demonstrated using real data, collected from five CSAs for four product. Furthermore, since people are known to be inherently bounded rational, the two methods are also evaluated with human buyers, demonstrating that selective price-disclosing can be highly effective with people, however the subset of prices that needs to be used should be extracted in a different (and more simplistic) manner."
+Red-Black Relaxed Plan Heuristics,"Classical Planning
+Heuristic Search
+Delete Relaxation","Heuristic Search
+Deterministic Planning","Heuristic Search and Optimization
+Reasoning about Plans, Processes, and Actions","Despite its success, the delete relaxation has significant pit- falls in many important classes of planning domains. Recent work has devised the red-black planning framework, where red variables take the relaxed semantics, in which they accumulate their values rather than switching between them, as opposed to black variables that take the regular semantics. Provided the red variables are chosen so that red-black plan generation is tractable, one can generate such a plan for every search state, and take its length as the heuristic distance estimate. Previous results were not suitable for this purpose because they identified tractable fragments for red-black plan existence, as opposed to red-black plan generation. We identify a new fragment of red-black planning, that fixes this issue. We devise machinery to efficiently generate red-black plans, and to automatically select the red variables. Experiments show that the resulting heuristics can significantly improve over standard delete relaxation heuristics."
+Vector-valued Multi-view Semi-supervised Learning for Multi-label Image Classification,"Image classification
+semi-supervised
+multi-label
+multi-view
+vector-value
+manifold","Classification
+Ensemble Methods
+Kernel Methods
+Semisupervised Learning",Machine Learning,"Images are usually associated with multiple labels and comprised of multiple views, due to each image containing several objects (e.g. a pedestrian, bicycle and tree) and multiple visual features (e.g. color, texture and shape). Currently available tools tend to use either labels or features for classification, but both are necessary to describe the image properly. There have been recent successes in using vector-valued functions, which construct matrix-valued kernels, to explore the multi-label structure in the output space. This has motivated us to develop multi-view vector-valued manifold regularization (MV$^3$MR) in order to integrate multiple features. MV$^3$MR exploits the complementary properties of different features, and discovers the intrinsic local geometry of the compact support shared by different features, under the theme of manifold regularization. We validate the effectiveness of the proposed MV$^3$MR methodology for image classification by conducting extensive experiments on two challenge datasets, PASCAL VOC' 07 and MIR Flickr."
+Temporal Milestones in HTNs,"Temporal reasoning
+HTN representation and planning
+Simple Temporal Networks","Geometric, Spatial, and Temporal Reasoning
+Temporal Planning
+Constraint Satisfaction","Constraints and Satisfiability
+Knowledge Representation and Reasoning
+Reasoning about Plans, Processes, and Actions","We present temporal milestones for hierarchical task networks to enable the complex synchronization of tasks. A temporal milestone of a task is an intermediate event that occurs during the execution of a complex task, e.g., the start time, the end time or a milestone of any of its subtasks.  Unlike landmark variables, introduced in existing work, temporal milestones respect the task abstraction boundaries and preserve structural properties enabling much more efficient reasoning. Furthermore, temporal milestones are expressive as landmark variables. We provide analytical and empirical evidence to  support these claims."
+Liberal Safety for Answer Set Programs with External Sources,"Answer Set Programming
+External source access
+Value invention
+Safety criteria
+Finite grounding","Logic Programming
+Nonmonotonic Reasoning",Knowledge Representation and Reasoning,"Answer set programs with external source access may introduce new
+constants that are not present in the program, which is known as value
+invention.  As naive value invention leads to programs with infinite
+grounding and answer sets, syntactic safety criteria are imposed on
+programs.  However, traditional criteria are in many cases unnecessarily
+strong and limit expressiveness.  We present liberal domain-expansion
+(de-) safe programs, a novel generic class of answer set programs with
+external source access that has a finite grounding and allows for value
+invention.  De-safe programs use so-called term bounding functions as a
+parameter for modular instantiation with concrete---e.g., syntactic or
+semantic or both---safety criteria.  This ensures extensibility of the
+approach in the future.  We provide concrete instances of the framework
+and develop an operator that can be used for computing a finite
+grounding.  Finally, we discuss related notions of safety from the
+literature, and show that our approach is strictly more expressive."
+Enforcing Meter in Finite-Length Markov Sequences,"Constraint Satisfaction
+Markov Models
+Global Constraints
+Sumset
+Additive Number Theory
+Meter
+Prosody
+Content Generation
+Music
+Text Generation","Global Constraints
+Art and Music
+Interactive Entertainment
+Natural Language Processing (General/Other)
+Constraint Satisfaction","Constraints and Satisfiability
+Applications
+Natural Language Processing","Markov processes are increasingly used to generate
+finite-length sequences for content generation applications
+(such as text or music). However, Markov
+Processes are notoriously difficult to control. Recently,
+Markov Constraints have been introduced in order
+to bring users some control on generated sequences.
+Markov Constraints reformulate finite-length Markov
+sequence generation in the framework of constraint satisfaction
+(CSP). However, in practice, this approach is
+limited to local user constraints and its performance
+is low for global user constraints, such as cardinality
+or arithmetic constraints. In this article, we introduce
+Markov Meter, a global constraint on sequences that
+ensures that 1) a sequence is Markovian with regards
+to a given corpus and 2) the sequence follows metrical
+rules expressed as cumulative cost functions. Additionally,
+Markov Meter constraints can simultaneously enforce
+cardinality constraints. We propose a filtering procedure
+for this constraint whose complexity is pseudopolynomial.
+This results is obtained by exploiting a theorem
+in Additive Number Theory by Nathanson. We
+illustrate our constraint on meter-constrained text and
+music generation problems that were so far not addressed
+by any other technique."
+A Robust Bayesian Truth Serum for Non-binary Signals,"mechanism design
+payment scheme
+incentive compatibility
+elicitation","E-Commerce
+Game Theory
+Mechanism Design
+Multiagent Systems (General/other)",Multiagent Systems,"Several mechanisms have been proposed for incentivizing
+truthful reports of a private signals owned by rational agents, among them
+the peer prediction method and the Bayesian Truth Serum.
+The robust Bayesian truth serum (RBTS) for small populations and binary signals 
+is particularly interesting since it does not require a common prior to be known to the
+mechanism. We further analyze the problem of the common prior not known to the mechanism and 
+give several results regarding the restrictions that need to be placed in
+order to have an incentive compatible mechanism. Moreover, we construct a
+Bayes-Nash incentive compatible scheme called multi-valued
+RBTS that generalizes RBTS to operate on both small populations
+and non-binary signals."
+Answering Counting Aggregate Queries over Ontologies of DL-Lite Family,"ontology
+description logics
+DL-Lite
+query answering
+aggregate queries
+certain answers","Ontologies
+Knowledge-Based Systems (General/Other)
+Computational Complexity of Reasoning
+Description Logics","Knowledge-Based Systems
+Knowledge Representation and Reasoning","One of the main applications of description logics is
+the ontology-based data access model, which requires algorithms for
+query answering over ontologies. In fact, some description logics,
+like those in the DL-Lite family, are designed so that
+simple queries, such as conjunctive queries, are efficiently computable.
+In this paper we study counting aggregate queries over ontologies,
+i.e. queries which use aggregate functions COUNT and COUNT
+DISTINCT. We propose an intuitive semantics for certain answers for these
+queries, which conforms to the open world assumption. We compare our
+semantics with other approaches 
+that have been proposed in different contexts. We establish data and
+combined computational complexity for the problems of answering
+counting aggregate queries over ontologies for several variants of
+DL-Lite."
+An Extended GHKM Algorithm for Inducing Lambda-SCFG,"semantic parsing
+synchronous context-free grammar
+lambda calculus
+rule extraction",Semantics and Summarization,Natural Language Processing,"Semantic parsing, which aims at mapping a natural language (NL) sentence into its formal meaning representation (e.g., logical form), has received increasing attention in recent years. While synchronous context-free grammar (SCFG) augmented with lambda calculus (lambda-SCFG) provides an effective mechanism for semantic parsing, how to learn such lambda-SCFG rules still remains a challenge because of the difficulty in determining the correspondence between NL sentences and logical forms. To alleviate this structural divergence problem, we extend the GHKM algorithm, which is a state-of-the-art algorithm for learning synchronous grammars in statistical machine translation, to induce lambda-SCFG from pairs of NL sentences and logical forms. By treating logical forms as trees, we reformulate the theory behind GHKM that gives formal semantics to the alignment between NL words and logical form tokens. Experiments on the GEOQUERY dataset show that our semantic parser achieves an F-measure of 90.2%, the best result published to date."
+On the Social Welfare of Mechanisms for Repeated Batch Matching,"Online matching
+Social welfare
+Kidney exchange
+Job market","Mechanism Design
+Sequential Decision Making","Multiagent Systems
+Reasoning under Uncertainty","We study hybrid online-batch matching problems, where agents arrive continuously, but are only matched in periodic rounds, when many of them can be considered simultaneously. Agents not getting matched in a given round remain in the market for the next round. This setting models several scenarios of interest, including many job markets as well as kidney exchange mechanisms. We consider the social utility of two commonly used mechanisms for such markets: one that aims for stability in each round (greedy), and one that attempts to maximize social utility in each round (max-weight). Surprisingly, we find that in the long term, the social utility of the greedy mechanism can be higher than that of the max-weight mechanism. We hypothesize that this is because the greedy mechanism behaves similarly to a soft threshold mechanism, where all connections below a certain threshold are rejected by the participants in favor of waiting until the next round. Motivated by this observation, we propose a method to approximately calculate the optimal threshold for an individual agent to use based on characteristics of the other agents participating, and demonstrate experimentally that social utility is high when all agents use this strategy. Thresholding can also be applied by the mechanism itself to improve social welfare; we demonstrate this with an example on graphs that model pairwise kidney exchange."
+Multi-Label Learning with PRO Loss,"Machine Learning
+Multi-Label Learning
+Learning Algorithm","Classification
+Preferences/Ranking Learning",Machine Learning,"Multi-label learning approaches assign multiple labels to one object. However, besides differentiating relevant labels from irrelevant ones, it is often required in real applications to rank the \textit{relevant} labels for an object, while the ranking of \textit{irrelevant} labels is not so valuable. Such a requirement, however, cannot be well satisfied by existing approaches. One crucial reason is that most approaches were designed to optimize existing criteria, yet there is no criterion which encodes the above requirement. In this paper, we design a new criterion, \textsf{PRO Loss}, which concerns about the prediction on all labels as well as the ranking of relevant labels, while neglecting the ranking of irrelevant ones. We then propose the ProSVM approach which optimizes the \textsf{PRO Loss} efficiently using alternating direction method of multipliers. We further improve efficiency with an upper approximation that reduces the number of constraints from $O(T^2)$ to $O(T)$, where $T$ is the number of labels. Experiments show that our proposals are not only superior to state-of-the-art approaches on \textsf{PRO Loss}, but also highly competitive on existing evaluation criteria."
+Backdoors to Normality for Disjunctive Logic Programs,"backdoors
+parameterized complexity
+computational complexity
+answer set programming","Logic Programming
+Nonmonotonic Reasoning",Knowledge Representation and Reasoning,"Over the last two decades, propositional satisfiability (SAT) has become one of the most successful and widely applied techniques for the solution of NP-complete problems. The aim of this paper is to investigate theoretically how SAT can be utilized for the efficient solution of problems that are harder than NP or co-NP. In particular, we consider the fundamental reasoning problems in propositional disjunctive answer set programming (ASP), brave reasoning and cautious reasoning, which ask whether a given atom is contained in at least one or in all answer sets, respectively. Both problems are located at the second level of the Polynomial Hierarchy and thus assumed to be harder than NP or co-NP. One cannot transform these two reasoning problems to SAT in polynomial time, unless the Polynomial Hierarchy collapses.
+We show that certain structural aspects of disjunctive logic programs can be utilized to break through this complexity barrier, using new techniques from Parameterized Complexity. In particular, we exhibit transformations from brave and cautious reasoning to SAT that run in time O(2^k n^2) where k is a structural parameter of the instance and n the input size. In other words, the reduction is fixed-parameter tractable for parameter k. As the parameter k we take the size of a smallest backdoor with respect to the class of normal (i.e., disjunction-free) programs. Such a backdoor is a set of atoms that when deleted makes the program normal. In consequence, the combinatorial explosion, which is expected when transforming a problem from the second level of the Polynomial Hierarchy to the first level, can now be confined to the parameter k, while the running time of the reduction is polynomial in the input size n, where the order of the polynomial is independent of k. We show that such a transformation is not possible if we consider backdoors with respect to tightness instead of normality."
+A First-Order Formalization of Commitments and Goals,"Agent commitments
+Multiagent Systems
+Planning","Agent Communication
+Planning (General/Other)","Multiagent Systems
+Reasoning about Plans, Processes, and Actions","Commitments have been shown to model interactions in multiagent
+systems in a computationally realizable yet high-level manner without
+compromising the autonomy and heterogeneity of the member agents.
+Recent work has shown how to combine commitments with goals and apply
+methods such as planning by which agents can determine their actions.
+However, previous approaches to modeling commitments have been
+confined to propositional representations, which limits their
+applicability in practical cases.
+
+We propose a first-order representation and reasoning technique for
+commitments and goals that accommodates settings where the commitments
+and goals are templatic and may be applied repeatedly with differing
+bindings for domain objects.  Doing so not only leads to a more
+perspicuous modeling, it also enables us to support a variety of
+practical patterns.  In particular, our approach can handle the
+piecemeal progress, consolidation, delegation, and compensation of
+commitments."
+A Morphogenetically Assisted Design Variation Tool,"automated design
+functional blue prints
+design automation","Constraint Satisfaction (General/other)
+Other Applications","Constraints and Satisfiability
+Applications","The complexity and tight integration of electromechanical systems
+  often makes them ``brittle'' and hard to modify in response to
+  changing requirements. 
+
+  We aim to remedy this by capturing expert knowledge in functional
+  blueprints, which is an idea inspired by the regulatory processes that occur during 
+natural morphogenesis. We   then apply this knowledge
+  in an intelligent design variation tool.
+
+  When a user modifies a design, our tool modifies other components in
+  response, so that the design remains integrated and functional.
+
+  This is accomplished by blending the actions of functional
+  blueprints to incrementally navigate the space of viable designs,
+  obviating the need for costly search or constraint solving.
+
+  We also refine the concept of functional blueprints and discuss
+  practical issues in applying them to electromechanical systems.
+
+  Finally, we validate the approach by applying our prototype tool to
+  create variants of a miniDroid robot and by empirical evaluation of
+  the convergence dynamics of networks of functional blueprints."
+Towards Cohesive Anomalies Mining,"data mining
+clustering
+rare pattern",Data Mining and Knowledge Discovery,Machine Learning,"In some applications, such as bioinformatics, social network analysis, and computational criminology, it is desirable to find compact clusters formed by a (very) small portion of objects in a large data set.  Although in general it is still a clustering problem, it cannot be served well by the conventional clustering methods since generally those methods try to assign most of the data objects into clusters. Since such clusters are comprised of a small number of objects, they are extraordinary and anomalous with respect to the entire data set. In this paper, we model this novel and application-inspired task as the problem of mining cohesive anomalies. We propose a general framework and a principled approach to tackle the problem.  The experimental results on both synthetic and real data sets verify the effectiveness and efficiency of our approach."
+Boosting Lifted Likelihood Maximization for MAP Inference by Virtual Evidence,"MAP Inference
+Likelihood Maximization
+Lifted Inference
+Pseudo Evidence","Graphical Models (Other)
+Probabilistic Inference
+Relational Probabilistic Models",Reasoning under Uncertainty,"By handling whole sets of indistinguishable objects together, lifted belief propagation approaches have rendered large, previously intractable, probabilistic inference problems quickly solvable. In this paper, we show that Kumar and Zilberstein’s likelihood maximization approach to MAP inference is liftable, too, and actually provides additional structure for optimization. Specifically, it has been recognized that some pseudo marginals may converge quickly, turning intuitively into pseudo evidence. This additional evidence typically changes the structure of the lifted network: it may refine or coarsen it. The current lifted network, however, can be viewed as an upper bound on the size of the lifted network required to finish likelihood maximization. Consequently, we update the structure of the lifted network only if the pseudo evidence yields a smaller network, which can efficiently be computed on the current lifted network. Our experimental results on MLNs, Ising models, image segmentation and relational entity resolution demonstrate that this ``bootstrapped'' lifted likelihood maximization finds MAP assignments comparable to those found by Kumar and Zilberstein's original approach, but in a fraction of the time."
+Automating Collusion Detection in Sequential Games,"Sequential Games
+Agent Evaluation
+Collusion","Game Theory
+Multiagent Learning
+Evaluation and Analysis (Multiagent Systems)
+Multiagent Systems (General/other)",Multiagent Systems,"Collusion is the practice of two parties deliberately cooperating to the detriment of others.  While such behavior may be desirable in certain circumstances, in many it is considered dishonest and unfair.  If agents otherwise hold strictly to the established rules, though, collusion can be challenging to police.  In this paper, we introduce an automatic method for collusion detection in sequential games.  We achieve this through a novel object, called a collusion table, that aims to capture the effects of collusive behavior, i.e., advantage to the colluding parties, without committing to any particular pattern of behavior.  We demonstrate the effectiveness of this method in the domain of poker, a popular game where collusion is prohibited."
+Instructor Rating Markets,"prediction markets
+mechanism design
+manipulation and collusion","Bayesian Learning
+Auctions and Market-Based Systems
+Coordination and Collaboration
+Game Theory
+Mechanism Design
+Computational Social Science
+Human-Computer Interaction
+Decision/Utility Theory
+Probabilistic Inference
+Uncertainty in AI (General/Other)","Machine Learning
+Multiagent Systems
+Applications
+Multidisciplinary Topics
+Reasoning under Uncertainty","We describe the design of Instructor Rating Markets (IRMs) where human participants interact through intelligent automated market-makers in order to provide dynamic collective feedback to instructors on the progress of their classes. The markets are among the first to enable the controlled study of prediction markets where traders can affect the very outcomes they are trading on. More than 200 students across a university campus participated in markets for ten classes in the Fall 2010 semester. In this paper, we describe how we designed these markets in order to elicit useful information, and analyze data from the deployment.  We show that market prices convey useful information on future instructor ratings and contain significantly more information than do past ratings. The bulk of useful information contained in the price of a particular class is provided by students who are in that class, showing that the markets are serving to disseminate insider information. At the same time, we find little evidence of attempted manipulation by raters. The markets are also a laboratory for comparing different market designs and the resulting price dynamics, and we show how they can be used to compare market making algorithms."
+Extending STR to a Higher-Order Consistency,"propagation
+higher-order consistencies
+table constraints",Constraint Satisfaction,Constraints and Satisfiability,"One of the most widely studied classes of constraints in constraint programming (CP) is that of table constraints. Numerous specialized filtering algorithms, enforcing the wellknown property called generalized arc consistency (GAC), have been developed for such constraints. Among the most successful GAC algorithms for table constraints, we find variants of simple tabular reduction (STR), like STR2. In this paper, we propose an extension of STR-based algorithms that achieves full pairwise consistency (FPWC), a consistency stronger than GAC and max Restricted Pairwise Consistency (maxRPWC). Our approach involves counting the number of occurrences of specific combinations of values in constraint intersections. Importantly, the worst-case time complexity of one call to the basic filtering procedure at the heart of our new algorithm is quite close to that of STR algorithms. Experiments demonstrate that our method can outperform STR2 in many classes of problems, being significantly faster in some cases. Also, it is clearly superior to maxRPWC+, an algorithm that has been recently proposed."
+SMILe: Shuffled Multiple-Instance Learning,"multiple-instance learning
+resampling
+active learning","Active Learning
+Classification",Machine Learning,"Resampling techniques such as bagging are often used in supervised learning to produce more accurate classifiers. In this work, we show that multiple-instance learning admits a different form of resampling, which we call ""shuffling."" In shuffling, we resample instances in such a way that the resulting bags are likely to be correctly labeled. We show that resampling results in both a reduction of bag label noise and a propagation of additional informative constraints to a multiple-instance classifier. We empirically evaluate shuffling in the context of multiple-instance classification and multiple-instance active learning and show that the approach leads to significant improvements in accuracy."
+Joint inference of extraction and labelling via graph propagation for dictionary construction,"information extraction
+graph propagation
+joint inference","Information Extraction
+Natural Language Processing (General/Other)",Natural Language Processing,"In this paper, we present an approach that jointly infers the boundaries of tokens and their labels to construct dictionaries for Information Extraction (IE). Our approach for joint-inference is based on a graph propagation framework, and extends it in two novel ways. First, we extend the graph representation to capture ambiguities that occur during the token extraction phase. Second, we modify the labeling phase (i.e. label propagation) to utilize this new representation, allowing evidence from labeling to be used for token extraction. Our evaluation shows these extensions (and hence our approach) significantly improve the performance of the outcome dictionaries over pipeline-based approaches by preventing aggressive commitment. Our evaluation also shows that our extensions over a base graph-propagation framework was able to improve the precision without hurting the recall."
+Large-Scale Hierarchical Classification via Stochastic Perceptron,"Hierarchical classification
+large margin
+perceptron
+kernel","Classification
+Structured Prediction",Machine Learning,"The hierarchical classification (HC) problem with structured outputs is an important issue in machine learning and data mining. There are many state-of-the-art algorithms solving this problem. However, most of them suffer from high computational costs. To efficiently solves this problem, we propose a large margin method based on stochastic perceptron (SP). Differing from the conventional perceptron algorithm, we give a stochastic choice procedure to decide the direction of next iteration. This procedure leads to significant improvements in the classification accuracy in comparison with the conventional perceptron algorithm.
+We prove that after finite iterations the SP algorithm yields a sub-optimal solution with high probability when the input instances are separable. For large-scale and high-dimensional datasets, we devise a kernel SP algorithm, which dramatically reduces the memory space needed. The kernel SP algorithm  has the merit of low space complexity as well as low time complexity. We conduct empirical analysis. The experimental results show that our approach achieves almost the same accuracy as the state-of-the-art algorithms on the real-world datasets, but with much less CPU running time."
+Dynamic Minimization of Sentential Decision Diagrams,"knowledge compilation
+binary decision diagrams
+dynamic reordering",Knowledge Representation (General/Other),Knowledge Representation and Reasoning,"The Sentential Decision Diagram (SDD) is a recently proposed
+representation of Boolean functions, containing Ordered Binary
+Decision Diagrams (OBDDs) as a distinguished subclass. While OBDDs are
+characterized by total variable orders, SDDs are characterized more
+generally by structures called vtrees. As both OBDDs and SDDs have
+canonical representations, searching for OBDDs and SDDs of minimal
+size simplifies to searching for variable orders and vtrees,
+respectively. For OBDDs, there are effective heuristics for the
+dynamic ordering of variables, based on locally swapping variables.
+In this paper, we propose an analogous approach for SDDs which
+navigates the space of vtrees via two operations: one based on tree
+rotations and a second based on swapping children in a vtree.  We
+propose a particular heuristic for dynamically searching the space of
+vtrees, showing that it can find SDDs that are an order-of-magnitude
+more concise than OBDDs found by CUDD."
+Salient Object Detection via Low-Rank and Structured Sparse Matrix Decomposition,"Salient Object Detection
+Low Rank
+Structured Sparsity
+Matrix Decomposition","Cognitive Modeling
+Vision, Object Recognition, and Perception
+Robotics (General/Other)","Multidisciplinary Topics
+Robotics","Salient object detection provides an alternative solution to various image semantic understanding tasks such as object recognition, adaptive compression and image retrieval. Recently, low-rank matrix recovery (LR) theory has been introduced into saliency detection, and achieves impressed results. However, the existing LR-based models neglect the underlying structure of images, and inevitably degrade the associated performance. In this paper, we propose a Low-rank and Structured sparse Matrix Decomposition (LSMD) model for salient object detection. In the model, a tree-structured sparsity-inducing norm regularization is firstly introduced to provide a hierarchical description of the image structure to ensure the completeness of the extracted salient object. The similarity of saliency values within the salient object is then guaranteed by the $\ell_\infty$-norm. Finally, high-level priors are integrated to guide the matrix decomposition and enhance the saliency detection. Experimental results on the largest public benchmark database show that our model outperforms existing LR-based approaches and other state-of-the-art methods, which verifies the effectiveness and robustness of the structure cues in our model."
+Teaching Classification Boundaries to Humans,"Classification
+Teaching Classification
+Human Learning","Classification
+Supervised Learning (Other)
+Computer-Aided Education
+Cognitive Modeling","Machine Learning
+Applications
+Multidisciplinary Topics","Given a classification task, what is the best way to teach the resulting boundary to a human? While machine learning techniques can provide excellent methods for finding the boundary, including the selection of examples in an online setting, they tell us little about how we would teach a human the same task. We propose to investigate the problem of example selection and presentation in the context of teaching humans, and explore a variety of mechanisms in the interests of finding what may work best. In particular, we begin with the baseline of random presentation and then examine combinations of several mechanisms: the indication of an example’s relative difficulty, the use of the shaping heuristic from the cognitive science literature (moving from easier examples to harder ones), and a novel kernel-based “coverage model” of the subject’s mastery of the task. From our experiments on 53 human subjects learning and performing a pair of synthetic classification tasks via our teaching system, we found that we can achieve the greatest gains with a combination of shaping and the coverage model."
+Fast Equilibrium Computation for Infinitely Repeated Games,"Equilibrium Computation
+Repeated Games
+Folk Theorem
+Game Theory
+Nash Equilibrium",Game Theory,Multiagent Systems,"It is known that an equilibrium of an infinitely repeated two-player game
+  (with limit average payoffs) can be computed in polynomial time, as
+  follows: according to the folk theorem, we compute minimax strategies for
+  both players to calculate the punishment values, and subsequently find a
+  mixture over outcomes that exceeds these punishment values.  However, for
+  very large games, even computing minimax strategies can be prohibitive.
+  In this paper, we propose an algorithmic framework for computing
+  equilibria of repeated games that does not require linear programming and
+  that does not necessarily need to inspect all payoffs of the game.  This
+  algorithm necessarily sometimes fails to compute an equilibrium, but we
+  mathematically demonstrate that most of the time it succeeds quickly on
+  uniformly random games, and experimentally demonstrate this for other
+  classes of games.  This also holds for games with more than two players,
+  for which no efficient general algorithms are known."
+Composition Games for Distributed Systems: the EU Grant games,"Group formation
+Price of Anarchy
+Network games","Coordination and Collaboration
+Game Theory",Multiagent Systems,"We analyze ways by which people decompose into groups in distributed systems. We are interested in systems in which an agent can increase its utility by connecting to other agents, but must also pay a cost that increases with the size of the system.
+The right balance is achieved by the right size group of agents. We formulate and analyze three intuitive and realistic games and show how simple changes in the protocol can drastically improve the price of anarchy of these games. In particular,
+we identify two important properties for a low price of anarchy: agreement in joining the system, and the possibility of appealing a rejection from a system. We show that the latter property is especially important if there are some preexisting constraints regarding who may collaborate (or communicate) with whom."
+"Ranking Scientific Articles by Exploiting Citations, Authors, Journals and Time Information","Ranking Scientific Articles
+Heterogenous Network
+Dynamic Network","Preferences/Ranking Learning
+Relational/Graph-Based Learning
+Computational Social Science","Machine Learning
+Applications","Ranking scientific articles is an important but challenging task, partly due to the dynamic nature of the evolving publication network. In this paper, we mainly focus on two problems: (1) how to rank articles in the heterogeneous network; and (2) how to use time information in the dynamic network in order to obtain a better ranking result. To tackle the problems, we propose a graph-based ranking method, which utilizes citations, authors, journals/conferences and the publication time information collaboratively. The experiments were carried out on two public datasets. The result shows that our approach is practical and ranks scientific articles more accurately than the state-of-art methods."
+Optimizing Objective Function Parameters for Strength in Computer Game-Playing,"game playing
+machine learning
+objective function
+evaluation function
+shogi","Optimization
+Evolutionary Computation
+Supervised Learning (Other)
+Games and Game Playing","Heuristic Search and Optimization
+Machine Learning
+Applications","The learning of evaluation functions from game records has been widely studied in the field of computer game-playing. Conventional learning methods optimize the evaluation function parameters by using the game records of expert players in order to imitate their plays. They utilize objective functions to increase the agreement between the moves selected by game-playing programs and the moves in the records of actual games. Such conventional methods, however, have a problem in that increasing this agreement does not always improve the strength of the program. Indeed, it is not clear how the agreement relates to the strength of the generated program. To address this problem, this paper presents a learning method to optimize objective function parameters for strength of playing. The proposed method employs an evolutionary learning algorithm with the Elo ratings of programs, which denote the strength, as their fitness scores. Experimental results show that the proposed method is effective and that programs that learn using the objective function produced by the proposed method are superior to those that learn using conventional objective functions."
+Mixed Heuristic Local Search for Protein Structure Prediction,"Heuristics
+Local search
+Large neighborhood search
+Protein structure prediction
+Lattice models","Constraint Optimization
+Heuristic Search
+Optimization
+Metareasoning and Metaheuristics
+Evaluation and Analysis (Search and Optimization)
+Search (General/Other)
+Biomedical / Bioinformatics","Constraints and Satisfiability
+Heuristic Search and Optimization
+Applications","Protein structure prediction is an unsolved problem in computational biology. One great difficulty is due to the unknown factors in the actual energy function. Moreover, the energy models available are often not very informative particularly when spatially similar structures are compared during search. We introduce several novel heuristics to augment the energy model and present a new local search algorithm that exploits these heuristics in a mixed fashion. Although the heuristics individually are weaker in performance than the energy function, their combination interestingly produces stronger results. For standard benchmark proteins on the face centered cubic lattice and a realistic 20x20 energy model, we obtain structures with significantly lower energy than those obtained by the state-of-the-art algorithms. We also report results for these proteins using the same energy model on the cubic lattice."
+HC-Search: Learning Heuristics and Cost Functions for Structured Prediction,"Structured prediction
+Learning for search
+Imitation learning",Structured Prediction,Machine Learning,"Structured prediction is the problem of learning a function from structured inputs to structured outputs with prototypical examples being part-of-speech tagging and image labeling. Inspired by the recent successes of search-based structured prediction, we introduce a new framework for structured prediction called {\em HC-Search}. Given a structured input, the framework uses a search procedure guided by a learned heuristic H to uncover high quality candidate outputs and then uses a separate learned cost function C to select a final prediction among those outputs. We can decompose the regret of the overall approach into the loss due to H not leading to high quality outputs, and the loss due to C not selecting the best among the generated outputs. Guided by this decomposition, we minimize the overall regret in a greedy stage-wise manner by first training H to quickly uncover high quality outputs via imitation learning, and then training C to correctly rank the outputs generated via H according to their true losses. Experiments on several benchmark domains show that our approach significantly outperforms the state-of-the-art methods."
+Walking on Minimax Paths for k-NN Search,"k nearest neighbors
+link-based dissimilarity
+minimax paths",Relational/Graph-Based Learning,Machine Learning,"Link-based dissimilarity measures, such as shortest path or Euclidean commute time distance,
+base their distance on paths between nodes of a weighted graph.
+These measures are known to be better suited to data manifold with nonconvex-shaped clusters, compared to Euclidean distance,
+so that k-nearest neighbor (NN) search is improved in such metric spaces.
+In this paper we present a new link-based dissimilarity measure based on minimax paths between nodes.
+Two main benefits of minimax path-based dissimilarity measure are: (1) only a subset of paths is considered
+to make it scalable, while Euclidean commute time distance considers all possible paths;
+(2) it better captures nonconvex-shaped cluster structure, compared to shortest path distance.
+We define the total cost assigned to a path between nodes as L_p norm of intermediate costs of edges involving the path,
+showing that minimax path emerges from our L_p norm over paths framework.
+We also define minimax distance as the intermediate cost of the longest edge on the minimax path,
+then present a greedy algorithm to compute k smallest minimax distances 
+between a query and N data points in O(log N + klog k) time.
+Numerical experiments demonstrate that our minimax k-NN algorithm reduce the search time by several orders of magnitude,
+compared to existing methods, while the quality of k-NN search is significantly improved over Euclidean distance."
+A Concave Conjugate Approach for Nonconvex Penalized Regression with the MCP Penalty,"nonconvex penalized regression
+concave conjugate
+minimax concave plus penalty (MCP)
+augmented Lagrange multiplier
+d.c. programming","Optimization
+Dimension Reduction/Feature Selection
+Supervised Learning (Other)","Heuristic Search and Optimization
+Machine Learning","The minimax concave plus penalty (MCP) function has been demonstrated to be effective in nonconvex penalization for feature selection. In this paper we propose a novel construction approach for MCP. In particular, we show that MCP can be derived from a concave conjugate of the Euclidean distance function. This construction approach in turn leads us to an augmented Lagrange multiplier method for solving the penalized regression problem with the MCP penalty. In our method each feature corresponds to a distinct tuning parameter, and these tuning parameters can be automatically updated. We also develop a d.c. (difference of convex functions) programming approach for the penalized regression problem using the notion of concave conjugate. We show that the augmented Lagrange multiplier method degenerates into the d.c. method under specific conditions. We conduct experimental analysis on a set of simulated data. The result is encouraging."
+Convex Subspace Representation Learning from Multi-view Data,"multi-view learning
+subspace representation learning
+convex optimization","Dimension Reduction/Feature Selection
+Unsupervised Learning (Other)",Machine Learning,"Learning from multi-view data is important in many applications. In this paper, we propose a novel convex subspace representation learning method for multi-view clustering. We ﬁrst formulate the subspace learning in multiple views as one joint optimization problem with a common subspace representation matrix and a group sparsity inducing norm. By exploiting the properties of dual norms, we then show a convex min-max dual formulation with a sparsity inducing trace norm can be obtained. We develop a proximal bundle optimization algorithm to globally solve the min-max optimization problem. Our empirical study shows the proposed subspace representation learning can eﬀectively facilitate the multi-view clustering
+task and outperform alternative multi-view clustering methods across diﬀerent scenarios."
+Time-dependent Trajectory Regression on Road Networks via Multi-Task Learning,"Trajectory data mining
+Temporal smoothness
+Multi-task learning
+Fused lasso","Data Mining and Knowledge Discovery
+Transfer, Adaptation, Multitask Learning",Machine Learning,"Road travel costs are important knowledge hidden in large-scale GPS trajectory data set, the discovery of which can benefit many applications such as intelligent route planning and automatic driving navigation. While there are previous studies which tackled this task by modeling it as a regression problem with spatial smoothness taken into account, they unreasonably assumed that the latent cost of each road remains unchanged over time. Other works on route planning and recommendation that have considered temporal factors simply assumed temporal dynamics be known in advance as a parametric function over time, which is not faithful to reality. To overcome these limitations, in this paper, we propose an extension to a previous static trajectory regression framework by learning the temporal dynamics of road travel costs in an innovative non-parametric manner which can effectively overcome temporal sparsity problem. In particular, we unify multiple different trajectory regression problems in a multi-task framework by introducing a novel cross-task regularization factor which encourages temporal smoothness on the change of road travel costs. We then propose an efficient block coordinate descent method to solve the resulting problem by exploiting its separable structures and prove its convergence to global optimum. Experiments conducted on both synthetic and real data sets demonstrate the effectiveness of our method and its improved accuracy on travel time prediction."
+Parameterized Complexity Results for Case-Based Planning,"parametrized complexity
+theoretical foundations
+case-based planning
+plan reuse","Computational Complexity of Reasoning
+Case-Based Reasoning
+Replanning and Plan Repair
+Planning (General/Other)","Knowledge Representation and Reasoning
+Machine Learning
+Reasoning about Plans, Processes, and Actions","Planning is a notoriously difficult computational problem of high worst-case complexity.  Researchers have been investing significant efforts to develop heuristics or restrictions to make planning practically feasible. Case-based planning is one of the heuristic approaches where one tries to reuse previous experience with solving similar problems in order to avoid some of the planning effort. Empirical work indicates that despite the need to store and retrieve the experiences, case-based planning can compete  with traditional generative planning. 
+
+In this paper we provide theoretical results that identify situations in which the case-based approach is provably tractable.  We perform our analysis in the framework of parameterized complexity which supports a rigorous worst-case complexity analysis that takes structural properties of the input into account in terms of parameters. A central notion of parameterized complexity is fixed-parameter tractability which extends the classical notion of polynomial-time tractability by utilising the affect of parameters.
+  
+We draw a detailed map of the parameterized complexity landscape of several variants of problems that arise in the context of case-based planning. In particular, we consider the problem of reusing an existing plan, imposing various restrictions in terms of parameters, such as the number of steps that can be added to the
+existing plan to turn it into a solution of the planning instance at hand."
+Structured Kernel-Based Reinforcement Learning,"Reinforcement learning
+Markov decision processes
+Sequential decision making
+Kernels","Reinforcement Learning
+Sequential Decision Making","Machine Learning
+Reasoning under Uncertainty","Kernel-based reinforcement learning (KBRL) is a popular approach to learning non-parametric value function approximations. In this paper, we present structured KBRL, a paradigm for kernel-based RL that allows for modeling the structure of problems. Real-world problems usually involve structure and can be solved more efficiently when the structure is modeled. Our paper makes the following three contributions. First, we motivate the idea of structured KBRL, define a corresponding backup operator, and prove that the operator is a contraction. Second, we show how to rewrite the operator such that it can be applied efficiently. Our analysis reveals that its fixed point is the optimal value function in a special factored MDP. Third, we evaluate our method on a synthetic problem and compare it to state-of-the-art KBRL baselines. In most cases, we learn better policies than the baselines from an order of magnitude less training data."
+A Kernel Density Estimate-based approach to Component Goodness Modeling,"Run-time Fault Diagnosis
+Bayesian Probability Update
+Component Failure Probability","Diagnosis and Abductive Reasoning
+Reasoning with Beliefs
+Bayesian Learning
+Uncertainty in AI (General/Other)","Knowledge Representation and Reasoning
+Machine Learning
+Reasoning under Uncertainty","Intermittent fault localization approaches account for the fact that faulty components may fail intermittently by considering a parameter (known as goodness) that quantifies the probability that faulty components may still exhibit correct behavior. Current, state-of-the-art approaches (1) assume that this goodness probability is context independent and (2) do not provide means for integrating past diagnosis experience in the diagnostic mechanism. In this paper, we present a novel approach, coined Non-linear Feedback-based Goodness Estimate (NFGE), that uses Kernel Density Estimations (KDE) to address such limitations. We evaluated the approach with both synthetic and real data, yielding lower estimation errors, thus increasing the diagnosis performance."
+Timelines with Uncontrollability,"Timeline Planning
+Uncontrollability
+Temporal Planning
+Satisfiability Modulo Theory","Scheduling
+Temporal Planning
+Planning (General/Other)","Reasoning about Plans, Processes, and Actions","Timelines have been proposed as an alternative to PDDL-based
+modeling formalisms, to deal with domains where the temporal
+aspects are predominant, and have been used in many real-world
+applications.  Despite their practical success, a major
+limitation is the inability to deal with temporal
+uncertainty. This feature is pivotal in domains where the plan
+executor cannot decide the actual duration of some activities and
+the goal achievement must be guaranteed under a given set of
+assumptions on action durations.
+
+In this paper we make the following contributions. First, we
+propose a comprehensive framework, that (conservatively) extends
+the state of the art timeline approach with temporal
+uncertainty. We provide a semantic foundation to the various
+forms of planning problems.
+
+Second, we focus on the problem of producing time-triggered plans
+that are robust with respect to temporal uncertainty, under a
+bounded horizon. In this setting, we present the first complete
+algorithm, and we show how it can be made practical by leveraging
+the power of Satisfiability Modulo Theories."
+A Tensor-Variate Gaussian Process for Classification of Multidimensional Structured Data,"Tensor
+Multilinear algebra
+Gaussian processes classification
+Kernel method","Classification
+Kernel Methods
+Supervised Learning (Other)",Machine Learning,"As tensors provide a natural and efficient representation of multidimensional structured data, in this paper, we consider probabilistic multinomial probit classification for tensor-variate inputs with Gaussian processes (GP)  priors  placed over the latent function.   In order to take into account the underlying multimodes structure information within the model, we propose a framework of probabilistic product kernels for tensorial data based on a generative model assumption.  More specifically, it can be interpreted  as mapping tensors to probability density function space and measuring similarity by an  information divergence. Since tensor kernels enable us to model input tensor observations, the proposed tensor-variate GP is considered as both a generative and discriminative model. Furthermore, a fully  variational Bayesian treatment for multiclass GP classification with multinomial probit likelihood is employed to estimate the hyperparameters and infer the predictive distributions. Simulation results on both synthetic data and a real world application of human action recognition in videos demonstrate the effectiveness and advantages of the proposed approach on classification of multiway tensor data, especially in the case that  the underlying  structure information among multimodes is discriminative for the classification task."
+Discovering hierarchical structure for sources and entities,"Indian buffet process
+Dyadid features
+Probabilistic model
+Gibbs sampling","Clustering
+Data Mining and Knowledge Discovery",Machine Learning,"In this paper, we consider the problem of jointly learning hierarchies over a set of sources and entities based on their containment relationship. We model the concept of hierarchy using a set of latent binary features and propose a generative model that assigns those latent features to sources and entities in order to maximize the probability of the observed containment. To avoid fixing the number of features beforehand, we consider a non-parametric approach based on the Indian Buffet Process. The hierarchies produced by our algorithm can be used for completing missing associations and discovering structural bindings in the data. Using simulated and real datasets we provide empirical evidence of the effectiveness of the proposed approach in comparison to the existing hierarchy agnostic approaches."
+Uncorrelated Lasso,"variable selection
+Lasso
+de-correlation
+regression","Classification
+Dimension Reduction/Feature Selection
+Biomedical / Bioinformatics","Machine Learning
+Applications","Lasso-type variable selection has increasingly expanded its machine learning applications. In this paper, uncorrelated Lasso is proposed for variable selection, where variable de-correlation is considered simultaneously with variable selection, so that selected variables are uncorrelated as much as possible. An effective iterative algorithm, with the proof of convergence, is presented to solve the sparse optimization problem. Experiments on benchmark data sets show that the proposed method has better classification performance than many state-of-the-art variable selection methods."
+Radial Restraint: A Semantically Clean Approach to Bounded Rationality for Logic Programs,"Knowledge Representation
+Bounded Rationality
+Logic Programs","Metareasoning and Metaheuristics
+Common-Sense Reasoning
+Knowledge Representation Languages
+Logic Programming
+Nonmonotonic Reasoning","Heuristic Search and Optimization
+Knowledge Representation and Reasoning","Declarative logic programs (LP) based on the well-founded semantics
+(WFS) are used for knowledge representation (KR), e.g., in databases,
+business rules, semantic web, and SILK.  They represent logical
+non-monotonicity, and offer much better scalability than answer-set
+programs or first-order logic.  In this paper, we present radial
+restraint: a novel approach to bounded rationality in LP.  Radial
+restraint is parameterized by a norm that measures the syntactic
+complexity of a term, along with an abstraction function based on that
+norm.  When a term exceeds a bound for the norm, the term is assigned
+the WFS's third truth-value of undefined.  If the norm is finitary,
+radial restraint guarantees finiteness of models and decidability of
+inferencing, even when logical functions are present.  It further
+guarantees soundness, even when non-monotonicity is present.  We give
+a fixed-point semantics for radially restrained well-founded models
+which soundly approximate well-founded models.  We also show how to
+perform correct inferencing relative to such models, via SLG_ABS, an
+extension of tabled SLG resolution that uses norm-based abstraction
+functions.  Finally we discuss how SLG_ABS is implemented in theengine
+of XSB Prolog, and scales to knowledge bases with more than 10^8 rules
+and facts."
+Partial MUS Enumeration,"Satisfiability
+Minimal Unsatisfiable Subformulas (MUSes)
+Enumeration of MUSes","SAT and CSP: Solvers and Tools
+Satisfiability (General/Other)",Constraints and Satisfiability,"Minimal explanations of infeasibility find a wide range of uses. In the Boolean domain, these are referred to as Minimal Unsatisfiable Subsets (MUSes). In some settings, one needs to enumerate MUSes of a Boolean formula. Most often the goal is to enumerate all MUSes. In cases where this is computationally infeasible, an alternative is to enumerate some MUSes. This paper develops a novel approach for partial enumeration of MUSes, that complements existing alternatives. If the enumeration of all MUSes is viable, then existing alternatives represent the best option. However, for formulas where the enumeration of all MUSes is unrealistic, our approach provides a solution for enumerating some MUSes within a given time bound.  The experimental results focus on formulas for which existing solutions are unable to enumerate MUSes, and shows that the new approach can in most cases enumerate a non-negligible number of MUSes within a given time bound."
+Joint Object and Pose Recognition using Homeomorphic Manifold Analysis,"vision
+Object recognition
+object manipulation
+manipulation
+grasping
+manifold
+robotics
+instance recognition
+category recognition
+recognition
+pose recognition
+kinect
+3D sensing
+perception
+machine learning
+rgbd","Machine Learning (General/other)
+Cognitive Robotics
+Vision, Object Recognition, and Perception
+Robotics (General/Other)","Machine Learning
+Robotics","Object recognition is a key precursing challenge in the fields of object manipulation and robotic/AI reasoning in general. Recognizing object categories, particular instances of objects and viewpoints/poses of objects are three critical subproblems robots must solve in order to accurately grasp/manipulate objects and reason about their environments. Multi-view images of the same object lie on intrinsic low-dimensional manifolds in descriptor spaces (e.g. visual/depth descriptor spaces). These object manifolds share the same topology despite being geometrically different. Each object manifold can be represented as a deformed version of a unified manifold. The object manifolds can thus be parametrized by its homeomorphic mapping/reconstruction from the unified manifold. In this work, we construct a manifold descriptor from this mapping between homeomorphic manifolds and use it to jointly solve the three challenging recognition sub-problems. We extensively experiment on a challenging multi-modal (i.e. RGBD) dataset and other object pose datasets and achieve state-of-the-art results."
+A Hierarchical Aspect-Sentiment Model for Online Reviews,"Sentiment Analysis
+Aspect-Sentiment Tree
+Hierarchical Model
+Bayesian Nonparametric Model
+Opinion Mining","Data Mining and Knowledge Discovery
+Unsupervised Learning (Other)
+Natural Language Processing (General/Other)","Machine Learning
+Natural Language Processing","To help users quickly understand the major opinions from massive online reviews, it is important to automatically reveal the latent structure of aspects, sentiment polarities, and the association between them from the review texts. However, there is little work available about how to do them effectively. In this paper, we propose a Bayesian nonparametric model to discover an aspect-sentiment tree from unlabeled online reviews. The model discovers hierarchical structure of aspect-based sentiments, and we name it the HASM. In HASM, the whole structure is a tree. Each node itself is a two-level tree, whose root represents an aspect and the children represent the sentiment polarities associated with it. Each aspect or sentiment polarity is modeled as a distribution of words. To automatically extract both the structure and parameters of the tree, we use recursive Chinese Restaurant Process (rCRP) as the prior and jointly infer the aspect-sentiment tree from the review texts. We experiment with two real datasets and show that our model is comparable to two other hierarchical topic models in terms of quantitative measures of topic trees. We also show that our model achieves better sentence-level classification accuracy than previously proposed aspect-sentiment joint models."
+Multi-Cycle Query Caching in Agent Programming,"Agent programming languages
+BDI agents
+Query caching","Agent/AI Theories and Architectures
+Evaluation and Analysis (Multiagent Systems)
+Multiagent Systems (General/other)",Multiagent Systems,"In many logic-based BDI agent programming languages, plan selection involves inferencing over some underlying knowledge representation. While context-sensitive plan selection facilitates the development of flexible, declarative programs, the overhead of evaluating repeated queries to the agent's beliefs and goals can result in poor run time performance. In this paper we present an approach to multi-cycle query caching for logic-based BDI agent programming languages. We extend the abstract performance model presented in (Alechina et al 2012) to quantify the costs and benefits of caching query results over multiple deliberation cycles. We also present results of experiments with prototype implementations of both single- and multi-cycle caching in three logic-based BDI agent platforms, which demonstrate that significant performance improvements are achievable in practice."
+Pruning for Monte Carlo Distributed Reinforcement Learning in Decentralized POMDPs,"Reinforcement learning
+Decentralized planning
+Multi-agent learning","Reinforcement Learning
+Multiagent Learning
+Multiagent Planning","Machine Learning
+Multiagent Systems","Decentralized partially observable Markov decision
+processes (Dec-POMDPs) offer a powerful modeling
+technique for realistic multi-agent coordination problems
+under uncertainty. Prevalent solution techniques
+are centralized and assume prior knowledge of the
+model. Recently a Monte Carlo based distributed reinforcement
+learning approach was proposed, where
+agents take turns to learn best responses to each other’s
+policies. This promotes decentralization of the policy
+computation problem, and relaxes reliance on the
+full knowledge of the problem parameters. However,
+this Monte Carlo approach has a large sample complexity,
+which we address in this paper. In particular,
+we propose and analyze a modified version of the previous
+algorithm that adaptively eliminates parts of the
+experience tree from further exploration, thus requiring
+fewer samples while ensuring unchanged confidence in
+the learned value function. Experiments demonstrate
+significant reduction in sample complexity – the maximum
+reductions ranging from 61% to 93% over different
+benchmark Dec-POMDP problems – with the final
+policies being often better due to more focused exploration."
+Complexity of Inferences in Polytree-shaped Semi-Qualitative Probabilistic Networks,"Semi-qualitative probabilistic networks
+Hardness of inference in polytrees
+Polynomial-time algorithm","Computational Complexity of Reasoning
+Bayesian Networks
+Graphical Models (Other)","Knowledge Representation and Reasoning
+Reasoning under Uncertainty","Semi-qualitative probabilistic networks (SQPNs) merge two important graphical model
+  formalisms: Bayesian networks and qualitative probabilistic networks. They
+  provide a very general modeling framework by allowing the combination of
+  numeric and qualitative assessments over a discrete domain, and can be
+  compactly encoded by exploiting the same factorization of joint probability
+  distributions that are behind the Bayesian networks.  This paper explores the
+  computational complexity of semi-qualitative probabilistic networks, and takes
+  the polytree-shaped networks as its main target. We show that the inference
+  problem is coNP-Complete for binary polytrees with multiple observed nodes. We
+  also show that inferences can be performed in linear time if there is a
+  single observed node, which is a relevant practical case. Because our proof is
+  constructive, we obtain an efficient linear time algorithm for SQPNs under
+  such assumptions. To the best of our knowledge, this is the first exact
+  polynomial-time algorithm for SQPNs. Together these results provide
+  a clear picture of the inferential complexity in polytree-shaped SQPNs."
+Generating Natural-Language Video Descriptions Using Text-Mined Knowledge,"videos
+natural language descriptions
+text mining
+grounding
+computer vision","Machine Learning (General/other)
+Natural Language Processing (General/Other)
+Vision, Object Recognition, and Perception","Machine Learning
+Natural Language Processing
+Robotics","We present a holistic data-driven technique that generates natural-language descriptions for videos. We combine the output of state-of-the-art object and activity detectors with “real-world” knowledge to select the most probable subject-verb-object triplet for describing a video. We show that this knowledge, automatically mined from web-scale text corpora, enhances the triplet selection algorithm by providing it contextual information and leads to a four-fold increase in activity identification. Unlike previous methods, our approach can annotate arbitrary videos without requiring the expensive collection and annotation of a similar training video corpus. We evaluate our technique against a baseline that does not use text-mined knowledge and show that humans prefer our descriptions to those generated using purely visual detections."
+Assumption-Based Planning: Generating plans and explanations under incomplete knowledge,"Planning under incomplete knowledge
+Explanations
+Diagnosis
+Conformant Planning
+Contingent Planning","Common-Sense Reasoning
+Diagnosis and Abductive Reasoning
+Planning (General/Other)","Knowledge Representation and Reasoning
+Reasoning about Plans, Processes, and Actions","Many practical planning problems necessitate the generation of a plan under incomplete information about the state of the world. In this paper we propose the notion of Assumption-Based Planning.  Unlike conformant planning, which attempts to find a plan under all possible completions of the initial state, an assumption-based plan supports the assertion of additional assumptions about the state of the world, simplifying the planning problem, and often resulting in high quality plans where no conformant plan exists. We are interested in this paradigm of planning for two reasons: 1) it captures a compelling form of commonsense planning, and 2) it is of great utility in the generation of explanations, diagnoses, and counter-examples -- tasks which share a computational core with
+planning. We formalize the notion of assumption-based planning, establishing a relationship between assumption-based and conformant planning, and prove properties of such plans.  We further provide for the scenario where some assumptions are more preferred than others. Exploiting the correspondence with conformant planning, we propose a means of computing assumption-based plans via a translation to classical planning.  Our translation is an extension of the popular approach proposed by Palacios and Geffner and realized in their T0 planner. We have implemented our planner, A0, as a variant of T0 and tested it on a number of expository domains drawn from the International Planning Competition. Our results illustrate the utility of this new planning paradigm."
+Analyzing the effectiveness of adversary modeling in security games,"Game Theory
+Human Behavior
+Quantal Response
+Bounded Rationality
+Subjective Utility
+Human Experiment","Evaluation and Analysis (Multiagent Systems)
+Human-Computer Interaction
+Security and Privacy","Multiagent Systems
+Multidisciplinary Topics","Recent deployments of Stackelberg security games (SSG) have led to two competing approaches to handle boundedly rational human adversaries: (1) integrating models of human (adversary) decision-making into the game-theoretic algorithms, and (2) applying robust optimization techniques that avoid adversary modeling. A recent algorithm (MATCH) based on the second approach was shown to outperform the leading modeling-based algorithm even in the presence of significant amount of data. Is there then any value in using human behavior models in solving SSGs? Through extensive experiments with 547 human subjects playing 11102 games in total, we emphatically answer the question in the affirmative, while providing the following key contributions: (i) we show that our algorithm, SU-BRQR, based on a novel integration of human behavior model with the subjective utility function, significantly outperforms both MATCH and its improvements; (ii) we are the first to present experimental results with security intelligence experts, and find that even though the experts are more rational than the Amazon Turk workers, SU-BRQR still outperforms an approach assuming perfect rationality (and to a more limited extent MATCH); (iii) we show the advantage of SU-BRQR in a new, large game setting and demonstrate that sufficient data enables it to improve its performance over MATCH."
+Hypothesis Exploration for Malware Detection using Planning,"Planning
+Application
+Reasoning about actions","Action, Change, and Causality
+Diagnosis and Abductive Reasoning
+Other Applications
+Model-Based Reasoning
+Planning (General/Other)","Knowledge Representation and Reasoning
+Applications
+Reasoning about Plans, Processes, and Actions","In this paper we apply AI planning to address the hypothesis exploration problem and provide assistance to network administrators in detecting malware based on unreliable observations derived from network traffic.Building on the already established characterization and use of AI planning for similar problems, we propose a formulation of the hypothesis generation problem for malware detection as an AI planning problem with temporally extended goals and actions costs. Furthermore, we propose a notion of hypothesis ``plausibility'' under unreliable observations, which we model as plan quality. We then show that in the presence of unreliable observations, simply finding one most ``plausible'' hypothesis, although challenging, is not sufficient for effective malware detection.  To that end, we propose a method for applying a state-of-the-art planner within a principled exploration process, to generate multiple distinct high-quality plans. We experimentally evaluate this approach by generating random problems of varying hardness both with respect to the number of observations, as well as the degree of unreliability. Based on these experiments, we argue that our approach presents a significant improvement over prior work that are focused on finding a single optimal plan, and that the hypothesis exploration application can motivate the development of new planners capable of generating the top high-quality plans."
+Algorithms for strong Nash equilibrium with more than two agents,"non-cooperative game theory
+Strong Nash equilibrium
+equilibrium computation","Game Theory
+Multiagent Systems (General/other)",Multiagent Systems,"Strong Nash equilibrium (SNE) is an appealing solution concept when rational agents can form coalitions. A strategy profile is an SNE if no coalition of agents can benefit by deviating. An SNE must simultaneously be a Nash equilibrium (NE) and the optimal solution of multiple non-convex optimization problems. This makes even the derivation of necessary and sufficient equilibrium constraints in a mathematical programming fashion difficult. We show that forcing an SNE to be resilient only to pure strategy deviations by coalitions, unlike for NEs, is only a necessary condition here.  Second, we show that the application of Karush-Kuhn-Tucker conditions leads to another set of necessary conditions that are not sufficient. Third, we show that forcing the Pareto efficiency of an SNE for each coalition with respect to coalition correlated strategies is sufficient but not necessary. We then develop a tree search algorithm for SNE finding. At each node, it calls an oracle to suggest a candidate SNE and then verifies the candidate.  We show that our new necessary conditions can be leveraged to make the oracle more powerful.  Experiments validate the overall approach and show that the new conditions significantly reduce search tree size compared to using NE conditions alone."
+Decoupling the Multiagent Disjunctive Temporal Problem,"Temporal Decoupling
+Multiagent Scheduling
+Disjunctive Temporal Problem
+Constraint-based Scheduling","Coordination and Collaboration
+Distributed Problem Solving
+Scheduling
+Temporal Planning","Multiagent Systems
+Reasoning about Plans, Processes, and Actions","The Multiagent Disjunctive Temporal Problem (MaDTP) is a general constraint-based formulation for scheduling problems that involve interdependent agents.  Decoupling agents' interdependent scheduling problems, so that each agent can manage its schedule independently, requires agents to adopt more restrictive local constraints that effectively subsume their interdependencies.  In this paper, we present the first algorithms for decoupling MaDTPs.  Our distributed algorithm is provably sound and complete.  Our experiments demonstrate that the relative efficiency of finding a temporal decoupling improves with the interconnectedness between agents' schedules, leading to orders of magnitude speedup over algorithms that find complete solution spaces for MaDTPs.  However, decoupling by its nature restricts agents' local scheduling flexibility; we define novel flexibility metrics for decoupled MaDTPs, and show empirically how the flexibility sacrificed depends on the degree of coupling between agents' schedules."
+Online Lazy Updates for Portfolio Selection with Transaction Costs,"Online learning
+Portfolio selection
+Transaction costs
+Convex optimization","Optimization
+Online Learning
+Time-Series/Data Streams
+Machine Learning (General/other)
+Other Applications","Heuristic Search and Optimization
+Machine Learning
+Applications","With the ever increasing amount of data, particularly from search engines and social networks, stochastic optimization algorithms have become desirable for large-scale machine learning tasks because of their empirical efficiency and strong theoretical guarantees. However, a major challenge that is encountered is the cost of updating model parameters especially when the number of such parameters can be in the order of billions. Often times when parameters are updated, their values do not change significantly. As
+such, the cost of updating each parameter starts to outweigh the benefit.
+
+In this paper, we introduce an efficient primal-dual based online algorithm that performs lazy updates to the parameter vectors and show that its performance is competitive with reasonable lazy-strategies which have the benefit of hindsight. We demonstrate the effectiveness of our frugal algorithm in the online portfolio selection domain where a trader has to pay proportional transaction costs every time his portfolio is updated. We show that our Online Lazy Updates (OLU) algorithm results in sparse updates of the portfolio vector and is robust to transaction costs with extensive experiments on two real world datasets."
+Teamwork with Limited Knowledge of Teammates,"Multiagent Teamwork
+Limited Knowledge
+Ad Hoc Teamwork
+Transfer Learning","Transfer, Adaptation, Multitask Learning
+Coordination and Collaboration
+Multiagent Learning","Machine Learning
+Multiagent Systems","While great strides have been made in multiagent teamwork, existing approaches typically assume extensive information exists about teammates and how to coordinate actions.  This paper addresses how robust teamwork can still be created even if limited or no information exists about a specific group of teammates, as in the ad hoc teamwork scenario.  The main contribution of this paper is the first empirical evaluation of an agent cooperating with teammates not created by the authors, where the agent is not provided expert knowledge of its teammates.  For this purpose, we develop a general-purpose teammate modeling method and test the resulting ad hoc team agent's ability to collaborate with more than 40 unknown teams of agents to accomplish a benchmark task.  These agents were designed by people other than the authors without these designers planning for the ad hoc teamwork setting.  A secondary contribution of the paper is a new transfer learning algorithm, TwoStageTransfer, that can improve results when the ad hoc team agent does have some limited observations of its current teammates."
+Greedy or Not?   Local search move selection for MAXSAT,"stochastic local search
+SAT
+empirical analysis","SAT and CSP: Evaluation and Analysis
+SAT and CSP: Solvers and Tools
+Evaluation and Analysis (Search and Optimization)","Constraints and Satisfiability
+Heuristic Search and Optimization","Stochastic local search (SLS) is the dominant algorithmic paradigm for
+incomplete SAT and MAXSAT solvers.  Early studies on small 3SAT
+instances found that the use of greedy improving moves did not improve search
+compared to using next improving moves (Gent and Walsh 1992, 1993).
+Yet several recent algorithms commonly have two modes: a greedy search
+followed by diversification (Tompkins, Balint and Hoos 2011).  We
+revisit the early results by empirically studying the impact of greediness on
+SLS performance on much larger instances, including both random 3SAT and
+industrial MAXSAT problems.   Current implementations using greedy moves
+tend to be much less efficient than using next improving moves.  We
+implement an efficient buffering algorithm that makes greedy
+moves just as efficient as next improving moves.   We compare versions
+of GSAT and AdaptG2WSAT using next and greedy moves for both finding the
+first optima and guiding local search during diversification. We find
+that the first local optima found using greedy moves are statistically
+significantly better than the first local optima found using next
+improving moves.  However, this advantage reverses after subsequent
+search; given sufficient search time,  solutions are
+significantly better most of the time when using next improving moves.
+For larger random as well as industrial MAXSAT problems, current
+algorithm design should revisit the use of next improving moves."
+Learning Integrated Symbolic and Continuous Action Models for Continuous Domains,"Action Modeling
+Combined Symbolic/Continuous Learning
+Inductive Logic Programming
+Spatial Reasoning","Action, Change, and Causality
+Geometric, Spatial, and Temporal Reasoning
+Classification
+Clustering
+Learning Models for Planning and Diagnosis","Knowledge Representation and Reasoning
+Machine Learning
+Reasoning about Plans, Processes, and Actions","Long-living autonomous agents must be able to learn to perform
+competently in novel environments. One important aspect of competence
+is the ability to plan, which entails the ability to learn models of
+the agent’s own actions and their effects on the environment. In this
+paper we describe an approach to learn action models of environments
+with continuous-valued spatial states and realistic physics consisting
+of multiple interacting rigid objects. In such environments, we
+hypothesize that objects exhibit multiple qualitatively distinct
+behaviors we call modes, conditioned on their spatial relationships to
+each other. We argue that action models that explicitly represent
+these modes using a combination of symbolic spatial relationships and
+continuous metric information learn faster, generalize better, and
+make more accurate predictions than models that use only metric
+information. We present a method to learn action models with piecewise
+linear modes conditioned on a combination of first-order Horn clauses
+composed of symbolic spatial predicates and continuous classifiers. We
+empirically demonstrate with lesion studies in a physics simulation
+that our method learns more accurate and more general models than a
+method that learns a single smooth function (locally weighted
+regression) and a method that learns piecewise smooth functions not
+conditioned on spatial predicates."
+Truncated LPA* : Faster Replanning by Exploiting Suboptimality,"Heuristic Search
+Path Planning
+Incremental Search","Heuristic Search
+Replanning and Plan Repair
+Motion and Path Planning","Heuristic Search and Optimization
+Reasoning about Plans, Processes, and Actions
+Robotics","Incremental heuristic searches try to reuse their previous search efforts whenever these are available. As a result, they can often solve a sequence of similar planning problems much faster than planning from scratch. State-of-the-art incremental heuristic searches such as LPA*, D* and D* Lite all work by propagating cost changes to all the states on the search tree whose g-values (the costs of computed paths from the start) are no longer optimal. While such a complete propagation of cost changes is required to ensure optimality, the propagations can be stopped much earlier if we are looking for solutions within a given suboptimality bound. We develop an algorithm called Truncated LPA* (TLPA*), that builds on this observation, and uses a target suboptimality bound to efficiently restrict the cost propagations. We explain TLPA*, discuss its analytical properties and present experimental results for 2D and 3D (x, y, heading) path planning that show significant improvement in runtime over existing incremental heuristic
+searches when searching for close-to-optimal solutions. In addition, unlike typical incremental searches, TLPA* is much less dependent on the proximity of the cost changes to the goal of the search due to the early termination of the cost change propagation."
+Effective Bilingual Constraints for Semi-supervised Learning of Named Entity Recognizers,"Gibbs sampling for factored models
+bilingual constraints for NER
+semi-supervised learning",Information Extraction,Natural Language Processing,"Most semi-supervised methods in Natural Language Processing
+capitalize on unannotated resources in a single language;
+however, information can be gained from using parallel resources
+in more than one language, since translations of the
+same utterance in different languages can help to disambiguate
+each other. We demonstrate a method that makes
+effective use of vast amounts of bilingual text (a.k.a. bitext)
+to improve monolingual systems. We propose a factored
+probabilistic sequence model that encourages both crosslanguage
+and intra-document consistency. A simple Gibbs
+sampling algorithm is introduced for performing approximate
+inference. Experiments on English-Chinese Named Entity
+Recognition (NER) using the OntoNotes dataset demonstrate
+that our method is significantly more accurate than state-of-the-art 
+monolingual CRF models in a bilingual test setting.
+Our model also improves on previous work by Burkett et al. (2010), 
+achieving a relative error reduction of 10.8% and 4.5% in Chinese and English, respectively. 
+Furthermore, by annotating a moderate amount of unlabeled bi-text with our
+bilingual model, and using the tagged data for uptraining, we
+achieve a 9.2% error reduction in Chinese over the state-of-the-art Stanford monolingual NER system."
+A General Formal Framework for Pathfinding Problems with Multiple Agents using Answer Set Programming,"knowledge representation
+answer set programming
+pathfinding","Logic Programming
+Nonmonotonic Reasoning
+Multi-Robot Systems","Knowledge Representation and Reasoning
+Robotics","Pathfinding for a single agent is the problem of planning a route
+from an initial location to a goal location in an environment, going
+around obstacles. Pathfinding for multiple agents also aims to plan
+such routes for each agent, subject to different constraints, such
+as restrictions on the length of each path or on the total length of
+paths, no self-intersecting paths, no intersection of paths/plans,
+no crossing/meeting each other, etc. It also has variations for
+finding optimal solutions with respect to the maximum path length,
+the sum of plan lengths, etc. These problems are important for many
+real-life applications, such as motion planning, vehicle routing,
+environmental monitoring, patrolling, computer games, etc. Motivated
+by such applications, we introduce a formal framework that is
+general enough to solve all these problems: we use the expressive
+high-level representation formalism and efficient solvers of the
+declarative programming paradigm Answer Set Programming. We also
+introduce heuristics to improve the computational efficiency and/or
+solution quality. We show the applicability and usefulness of our
+framework by experiments, with randomly generated problem instances
+on a grid, on a real-world road network, and on a real computer game
+terrain."
+Multiagent Learning with a Noisy Global Reward Signal,"Multiagent Coordination
+Reinforcement Learning
+Reward Shaping
+Congestion Problems
+Scaling
+Air Traffic Control
+Function Approximation
+Neural Networks","Reinforcement Learning
+Coordination and Collaboration
+Multiagent Learning","Machine Learning
+Multiagent Systems","Scaling multiagent reinforcement learning to domains with many agents is a complex problem. In particular, multiagent credit assignment becomes a key issue as the system size increases. Some multiagent systems suffer from a global reward signal that is very noisy or difficult to analyze. This makes deriving a learnable local reward signal very difficult. Difference rewards (a particular instance of reward shaping) have been used to alleviate this concern, but they remain difficult to compute in many domains. In this paper we present an approach to modeling the global reward using function approximation that allows the quick computation of local rewards. We demonstrate how this model can result in significant improvements in behavior for three congestion problems: a multiagent ``bar problem'', a complex simulation of the United States airspace, and a generic air traffic domain. We show how the model of the global reward may be either learned on- or off-line using either linear functions or neural networks. For the bar problem, we show an increase in reward of nearly 200% over learning using the global reward directly. For the air traffic problem, we show a decrease in costs of 25% over learning using the global reward directly."
+Modelling and Control of Mixed Observability Multiagent Systems,"predictive states
+mixed observability
+model learning
+reinforcement learning","Reinforcement Learning
+Multiagent Learning","Machine Learning
+Multiagent Systems","Learning accurate models of agent behaviours is crucial for the purpose of controlling multiagent systems where the agent and environment dynamics are unknown. Many multiagent systems exhibit mixed observability, where the multiple interacting agents are heterogenous - observations of some of the agents are essentially perfect and noiseless, while observations of other agents are imperfect, aliased or noisy. Predictive state representations are well-suited to model learning but had hitherto not been adapted to such systems. We present a new model learning framework, the mixed observability predictive state representation (MO-PSR), which exploits structural properties present in mixed observability multiagent systems to learn models that allow more efficient planning and control. We present a learning algorithm that is scalable to large amounts of data and to large mixed observability domains, and show theoretical analysis of the learning consistency and computational complexity. Empirical results demonstrate that our algorithm is capable of learning accurate models, at a larger scale than with the generic predictive state representation, by leveraging the mixed observability properties."
+Resolution and Parallelizability: Barriers to the Efficient Parallelization of SAT Solvers,"Resolution
+Satisfiability
+Parallel
+SAT
+Clause Learning
+Proof Complexity","SAT and CSP: Evaluation and Analysis
+SAT and CSP: Solvers and Tools
+Satisfiability (General/Other)",Constraints and Satisfiability,"Recent attempts to create versions of Satisfiability (SAT) solvers
+that exploit parallel hardware have met with limited success. In fact,
+the most successful parallel solvers in recent competitions were based
+on portfolio approaches with little to no exchange of information
+between processors. This experience contradicts the apparent
+parallelizability of exploring a combinatorial search space. We
+present evidence that this discrepancy can be explained by studying
+SAT solvers as resolution refutation engines. Starting with the
+observation that a recently studied measure of resolution proofs,
+namely depth, provides a (weak) upper bound to the best possible
+speedup achievable by such solvers, we empirically show the existence
+of bottlenecks to parallelizability that refutations typically
+generated by SAT solvers exhibit. Further, we propose a new measure
+that explicitly accounts for a bounded number of parallel processors
+and empirically correlates with parallel speedups observed in
+practice. Our findings suggest that efficient parallelization of such
+solvers is not simply a matter of finding the right clause sharing
+heuristics, it is also hindered by the structure of the refutations
+these solvers produce."
+Ties Matter: Complexity of Manipulation when Tie-breaking with a Random Vote,"Social choice
+Voting
+Manipulation
+Computational complexity",Social Choice / Voting,Multiagent Systems,"We study the impact on strategic voting of tie-breaking by
+means of considering the order of tied candidates within a
+random vote. We compare this to another non-deterministic
+tie-breaking rule where we simply choose between candidates 
+uniformly at random. In general, we demonstrate that
+there is no connection between the computational complexity 
+of computing a manipulating vote with the two different
+types of tie-breaking. However, we prove that for some 
+scoring rules, the computational complexity of computing a 
+manipulation can increase from polynomial to NP-hard. We also
+discuss the relationship with the computational complexity of
+computing a manipulating vote when we ask for an unique
+winner, or when we select from the set of co-winners."
+Solving security games on graphs via marginal probabilities,"computational game theory
+stackelberg games
+security games","Optimization
+Game Theory","Heuristic Search and Optimization
+Multiagent Systems","Security games involving the allocation of multiple security resources to defend multiple targets generally have an exponential number of pure strategies for the defender. One method that has been successful in addressing this computational issue is to instead directly compute the marginal probabilities with which the individual resources are assigned (first pursued by Kiekintveld et al. (2009)).
+However, in sufficiently general settings, there exist games where these marginal solutions are not implementable, that is, they do not correspond to any mixed strategy of the defender. In this paper, we examine security games on graphs and show how the type of graph, the type of schedules, and the type of defender resources affect the applicability of this approach.  In some settings, we show the approach is applicable and give a polynomial-time algorithm for computing an optimal defender strategy; in other settings, we give counterexample games that demonstrate that the approach does not work, and prove NP-hardness results for computing an optimal defender strategy."
+Sample Complexity and Performance Bounds for Non-parametric Approximate Linear Programming,"MDP
+ALP
+Reinforcement Learning",Reinforcement Learning,Machine Learning,"One of the most difficult tasks in value function approximation for Markov Decision Processes is finding an approximation architecture that is expressive enough to capture the important structure in the value function, while at the same time not overfitting the training samples. Recent results in non-parametric approximate linear programming (NP-ALP), have demonstrated that this can be done effectively using nothing more than a smoothness assumption on the value function. In this paper we extend these results to the case where samples come from real world transitions instead of the full Bellman equation, adding robustness to noise. In addition, we provide the first max-norm, finite sample performance guarantees for any form of ALP. NP-ALP is amenable to problems with large (multidimensional) or even infinite (continuous) action spaces, and does not require a model to select actions using the resulting approximate solution."
+PAC Optimal Exploration in Continuous Space Markov Decision Processes,"MDPs
+PAC-optimal
+Exploration
+Reinforcement Learning",Reinforcement Learning,Machine Learning,"Current exploration algorithms can be classified in two broad categories: Heuristic, and PAC optimal. While numerous researchers have used heuristic approaches such as $\epsilon$-greedy exploration successfully, such approaches lack formal, finite sample guarantees and may need a significant amount of fine-tuning to produce good results. PAC optimal exploration algorithms, on the other hand, offer strong theoretical guarantees but are inapplicable in domains of realistic size. The goal of this paper is to bridge the gap between theory and practice, by introducing C-PACE, an algorithm which offers strong theoretical guarantees and can be applied to interesting, continuous state problems."
+A Fast Pairwise Heuristic for Planning under Uncertainty,"Planning under uncertainty
+Decision Making
+Markov Decision Process
+POMDP","Planning (General/Other)
+Uncertainty in AI (General/Other)","Reasoning about Plans, Processes, and Actions
+Reasoning under Uncertainty","POMDP (Partially Observable Markov Decision Process) is a mathematical framework that models planning under uncertainty. Solving a POMDP is an intractable problem and even the state of the art POMDP solvers are too computationally expensive for large domains. This is a major bottleneck. In this paper, we propose a new heuristic, called the pairwise heuristic, that can be used in a one-step greedy strategy to find a near optimal solution for POMDP problems very quickly. This approach is a good candidate for large problems where real-time solution is a necessity but exact optimality of the solution is not vital. The pairwise heuristic uses the optimal solutions for pairs of states. For each pair of states in the POMDP, we find the optimal sequence of actions to resolve the uncertainty and to maximize the reward, given that the agent is uncertain about which state of the pair it is in. Then we use these sequences as a heuristic and find the optimal action in each step of the greedy strategy using this heuristic. We have tested our method on the available large classical test benchmarks in various domains. The resulting total reward is close to, if not greater than, the total reward obtained by other state of the art POMDP solvers, while the time required to find the solution is always much less."
+Sensitivity of diffusion dynamics to network uncertainty,"diffusion on graphs
+independent cascades model
+linear threshold model
+network sampling
+network perturbation
+submodularity","Agent-based Simulation and Emergent Behavior
+Computational Social Science
+Social Networks","Multiagent Systems
+Applications","Simple diffusion processes on networks have been used to model, analyze and predict diverse phenomena such as spread of diseases, information, memes, etc. More often than not, the underlying network data is noisy and sampled. This prompts the following natural question: how sensitive are the diffusion dynamics and subsequent conclusions to uncertainty in the network? 
+
+In this paper, we consider two popular diffusion models: Independent cascades (IC) model and Linear threshold (LT) model. We study how the expected number of vertices that are influenced/infected, given some initial conditions, are affected by network perturbation. By rigorous analysis under the assumption of a reasonable perturbation model we establish the following main results: (1) For the IC model, we characterize the susceptibility to network perturbation in terms of the critical probability for phase transition of the network. We find the expected number of infections is quite stable, unless the the transmission probability is close to the critical probability. (2) We show that the standard LT model with uniform edge weights is relatively stable under network perturbations. (3) Empirically, the transient behavior, i.e., the time series of the number of infections, in both models appears to be more sensitive to network perturbations. We also study these questions using extensive simulations on diverse real world networks, and find that our theoretical predictions for both models match the empirical observations quite closely."
+Automatic Identification of Conceptual Metaphors With Limited Knowledge,"conceptual metaphor
+cognitive linguistics
+natural language processing
+metaphor perception","Unsupervised Learning (Other)
+Natural Language Processing (General/Other)","Machine Learning
+Natural Language Processing","Complete natural language understanding requires identifying and
+analyzing the meanings of metaphors, which are ubiquitous in text and
+speech. Underlying metaphors in language are conceptual metaphors,
+partial semantic mappings between disparate conceptual domains. Though
+positive results have been achieved in identifying linguistic
+metaphors over the last decade, little work has been done to date on
+automatically identifying conceptual metaphors. This paper describes
+research on identifying conceptual metaphors based on corpus data. Our
+method uses as little background knowledge as possible, to ease
+transfer to new languages and to minimize any bias introduced by the
+knowledge base construction process. The method relies on general
+heuristics for identifying linguistic metaphors and statistical
+clustering (guided by Wordnet) to form conceptual metaphor
+candidates. Human experiments show the system effectively finds
+meaningful conceptual metaphors."
+Model-Lite Case-Based Planning,"Model-lite planning
+case-based planning
+planning
+incomplete models","Case-Based Reasoning
+Deterministic Planning
+Planning (General/Other)","Machine Learning
+Reasoning about Plans, Processes, and Actions","There is increasing awareness in the planning community that depending on complete models impedes the applicability of planning technology in many real world domains where the burden of specifying complete domain models is too high. In this paper, we consider a novel solution for this challenge that combines generative planning on incomplete domain models with a library of plan cases that are known to be correct. While this was arguably the original motivation for case-based planning, most existing case-based planners assume (and depend on) from-scratch planners that work on complete domain models. In contrast, our approach views the plan generated with respect to the incomplete model as a ""skeletal plan"" and augments it with directed mining of plan fragments from library cases. We will present the details of our approach and present an empirical evaluation of our method in comparison to a state-of-the-art case-based planner that depends on complete domain models."
+Scalable Lifelong Learning with Active Task Selection,"lifelong learning
+multi-task learning
+active learning
+curriculum selection","Active Learning
+Transfer, Adaptation, Multitask Learning",Machine Learning,"In a lifelong learning framework, an agent acquires knowledge incrementally over consecutive learning tasks, continually building upon its experience.  Recent lifelong learning algorithms have achieved nearly identical performance to batch multi-task learning methods while requiring over three orders of magnitude less time to learn.  In this paper, we further improve the scalability of lifelong learning by developing curriculum selection methods that enable an agent to actively select the next task to learn in order to maximize performance on future learning tasks.  We demonstrate that active task selection is highly reliable and effective, allowing an agent to learn high performance models using up to 50% fewer tasks than when the agent has no control over the task order.  We also explore a variant of transfer learning in the lifelong learning setting in which the agent can focus knowledge acquisition toward a particular target task, enabling the agent to quickly learn the target task."
+Continuous Conditional Random Fields for Efficient Regression in Large Fully Connected Graphs,"structured regression
+conditional random fields
+approximate learning
+approximate inference
+fully connected graphs","Big Data / Scalability
+Graphical Model Learning
+Structured Prediction",Machine Learning,"When used for structured regression, powerful Conditional Random Fields (CRFs) are typically restricted to modeling effects of interactions among examples in local neighborhoods. Using more expressive representation would result in dense graphs, making these methods impractical for large-scale applications. To address this issue, we propose an effective CRF model with linear scale-up properties regarding approximate learning and inference for structured regression on large, fully connected graphs. The proposed method is validated on real-world large-scale problems of image de-noising and remote sensing. In conducted experiments, we demonstrated that dense connectivity provides an improvement in prediction accuracy. Inference time of less than a second on graphs with billions of edges  makes the proposed model an attractive tool for large-scale, structured regression problems."
+Probabilistic Sense Sentiment Similarity through Hidden Emotions,"Sentiment Similarity
+Indirect yse/no Question Answer Pairs
+Sentiment Orientation Prediction","Information Extraction
+Question Answering
+Natural Language Processing (General/Other)",Natural Language Processing,"Sentiment Similarity of word pairs reflects the distance between the words regarding their underlying sentiments. This paper intends to infer the sentiment similarity between word pairs with respect to their senses. To achieve this aim, we propose a probabilistic emotion-based approach that is built on a hidden emotional model in which the basic human emotions are considered as hidden. This leads to predict a vector of basic emotions for each sense of the words. The emotional vectors are employed to infer the sentiment similarity of word pairs. We apply the proposed sentiment similarity approach to address two main natural language processing tasks, namely, Indirect yes/no Question Answer Pairs (IQAPs) inference and Sentiment Orientation (SO) prediction. Extensive experiments demonstrate that the proposed approach can effectively capture the sentiment similarity of word pairs and significantly outperforms semantic similarity measures on the above tasks."
+Strategic Behavior when Allocating Indivisible Goods Sequentially,"Fair division
+Elicition free protocol
+Backward induction
+Indivisible goods
+Game theory","Game Theory
+Mechanism Design",Multiagent Systems,"We study a simple sequential allocation mechanism for allocating indivisible goods between agents where agents take turns to pick items. We focus on computational aspects of agents behaving strategically. We view the allocation procedure as a ﬁnite repeated game with perfect information. We show that with just two agents, we can compute the unique subgame perfect Nash equilibrium in linear time. With more
+agents, computing one or all of the subgame perfect Nash equilibria is more difﬁcult. There can be an exponential number of equilibria and computing even one of them is PSPACE-hard in general. We identify a special case, when agents value many of the items identically, where we can efﬁciently compute the subgame perfect Nash equilibria. We also consider the effect of externalities and modiﬁcations to the mechanism that make it strategy proof."
+A Pattern Matching Based Graphical Model for Question Subjectivity Prediction,"Opinion Question
+Subjectivity Detection
+Opinion Question Detection",Natural Language Processing (General/Other),Natural Language Processing,"This paper presents the results of developing subjectivity classifiers using only unannotated data for training. We focus on Implicit Opinion Question (IOQ) identification where IOQs are defined as the opinion questions that do not contain any opinion words (such as best, amazing, etc). An IOQ example is ""will the U.S. government pay more attention to the Pacific Rim?"" Our analysis on community QA (cQA) questions shows that a large proportion of cQA opinion questions are IOQs. It is thus important to develop techniques to identify such questions. In this research, we first propose an effective method based on mutual information and sequential pattern mining to construct an opinion lexicon that not only contains cQA opinion words but also patterns. The discovered words or patterns are then combined with a machine learning technique to identify opinion questions. The experimental results on two datasets demonstrate the effectiveness of our approach."
+Grounding Natural Language References to Unvisited and Hypothetical Location,"Human-robot interaction
+Integrated perception cognition and action
+Mapping localization and exploration","Natural Language Processing (General/Other)
+Robotics (General/Other)","Natural Language Processing
+Robotics","While much research exists on resolving spatial natural language references to known locations, little work deals with handling references to unknown locations. In this paper we introduce and evaluate algorithms integrated into a cognitive architecture which allow an agent to learn about its environment while resolving references to both known and unknown locations. We also describe how multiple components jointly facilitate these capabilities."
+Story Generation with Crowdsourced Plot Graphs,"Story generation
+Narrative intelligence
+Knowledge representation","Knowledge-Based Systems (General/Other)
+Machine Learning (General/other)
+Interactive Entertainment
+Cognitive Modeling","Knowledge-Based Systems
+Machine Learning
+Applications
+Multidisciplinary Topics","Story generation is the problem of automatically selecting a sequence of events that meet a set of criteria and can be told as a story. Story generation is knowledge-intensive; traditional story generators rely on a priori defined domain models about fictional worlds, including characters, places, and actions that can be performed. Manually authoring the domain models is costly and thus not scalable. We present a novel class of story generation system that can generate stories in an unknown domain. Our system (a) automatically learns a domain model by crowdsourcing a corpus of narrative examples and (b) generates stories by sampling from the space defined by the domain model. A large-scale evaluation shows that stories generated by our system for a previously unknown topic are comparable in quality to simple stories authored by untrained humans."
