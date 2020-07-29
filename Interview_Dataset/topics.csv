@@ -1,0 +1,20 @@
+id,topic,subject,Lables
+1115,fcfs,Operating System,0
+1923,dml,Database Management System,1
+835,jdbc,Object_oriented_programing,2
+1866,joints,Database Management System,1
+1125,buffering,Operating System,0
+819,applet,Object_oriented_programing,2
+1291,deadlock,Operating System,0
+1900,ddl,Database Management System,1
+688,polymorphism,Object_oriented_programing,2
+1059,caching,Operating System,0
+811,thread,Object_oriented_programing,2
+1197,security,Operating System,0
+999,scheduling,Operating System,0
+480,Inheritance,Object_oriented_programing,2
+648,encapsulation,Object_oriented_programing,2
+1771,transaction,Database Management System,1
+127,Object,Object_oriented_programing,2
+2383,sql,Database Management System,1
+1376,keys,Database Management System,1
