@@ -30,6 +30,15 @@ Data
 If any one Intrested work with Use Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
+---
+# References To Learn and Develop your Self:
+* [Python](https://github.com/reddyprasade/Python-Basic-For-All-3.x)
+* [Data Science With Python ](https://github.com/reddyprasade/Data-Science-With-Python)
+* [Machine Learning with Python](https://github.com/reddyprasade/Machine-Learning-with-Scikit-Learn-Python-3.x)
+* [Deep learning With python](https://github.com/reddyprasade/Deep-Learning)
+* [Data Visulization](https://github.com/reddyprasade/Data-Science-With-Python/tree/master/Data%20Visualization)
+* [Life Cycle of Data Science](https://github.com/reddyprasade/Data-Science-With-Python/tree/master/Life%20Cycle%20Process%20of%20Data%20Science%20In%20Real%20World%20project)
+* [Statistics](https://github.com/reddyprasade/Data-Science-With-Python/tree/master/Statistics)
+---
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)[Copyright (c) 2020 REDDY PRASAD]
